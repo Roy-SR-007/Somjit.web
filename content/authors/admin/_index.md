@@ -25,7 +25,7 @@ role: An Undergrad in Statistics with Mathematics and Economics
 social:
 - icon: envelope
   icon_pack: fas
-  link: /#contact
+  link: 9330576779
 - display:
     header: true
   icon: twitter
@@ -34,7 +34,7 @@ social:
   link: https://twitter.com/SomjitRoy2
 - icon: graduation-cap
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://orcid.org/0000-0002-3012-8430
 - icon: github
   icon_pack: fab
   link: https://github.com/Roy-SR-007
