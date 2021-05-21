@@ -21,7 +21,7 @@ interests:
 organizations:
 - name: Stanford University
   url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+role: A Student of Statistics, Mathematics & Economics at St.Xavier's College (Autonomous), Kolkata
 social:
 - icon: envelope
   icon_pack: fas
