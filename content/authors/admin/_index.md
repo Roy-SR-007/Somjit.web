@@ -19,9 +19,9 @@ interests:
 - Computational Linguistics
 - Information Retrieval
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-role: A Student of Statistics, Mathematics & Economics at St.Xavier's College (Autonomous), Kolkata
+- name: St.Xavier's College (Autonomous), Kolkata
+  url: https://www.sxccal.edu/
+role: An Undergrad in Statistics with Mathematics and Economics
 social:
 - icon: envelope
   icon_pack: fas
