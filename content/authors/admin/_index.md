@@ -25,7 +25,7 @@ role: An Undergrad in Statistics with Mathematics and Economics
 social:
 - icon: envelope
   icon_pack: fas
-  link: 9330576779
+  link: somjit.roy2001@gmail.com
 - display:
     header: true
   icon: twitter
