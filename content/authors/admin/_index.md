@@ -12,8 +12,8 @@ education:
   - course: BSc in Artificial Intelligence
     institution: Massachusetts Institute of Technology
     year: 2008
-email: ""
-highlight_name: false
+email: "somjit.roy2001@gmail.com"
+highlight_name: true
 interests:
 - Artificial Intelligence
 - Computational Linguistics
@@ -31,16 +31,16 @@ social:
   icon: twitter
   icon_pack: fab
   label: Follow me on Twitter
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/SomjitRoy2
 - icon: graduation-cap
   icon_pack: fas
   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/Roy-SR-007
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: linkedin.com/in/somjit-r-6b0965114
 superuser: true
 title: Somjit Roy
 ---
