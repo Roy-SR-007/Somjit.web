@@ -70,6 +70,29 @@ experience:
     
     * Situations of Random Supply in a Classical Newsboy Problem and Alternative Optimality Citeria in a Newsvendor Problem'
     
+  - title: Summer Intern
+    company: Indian Statistical Institute, Kolkata
+    company_url: 'https://www.isical.ac.in/'
+    company_logo: isi
+    location: Kolkata
+    date_start: '2019-05-14'
+    date_end: '2019-06-29'
+    description: |2-
+        Responsibilities include:
+        
+        * Dealing with applications in the area of Statistical Analysis and Statistical Data Handling 
+        * Topic of Work : Analysis of Indian Parliamentary Election Results, 2019
+        
+  - title: Trainee at ExploreML Workshop
+    company: Google
+    company_url: 'https://developers.google.com/machine-learning/crash-course'
+    company_logo: google-icon
+    location: Kolkata
+    date_start: '2019-04-01'
+    date_end: '2019-07-01'
+    description: 'Developed skills on Machine Learning and Deep Learning Techniques using Python Programming'
+    
+    
     
     
 design:
