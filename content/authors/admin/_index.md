@@ -20,6 +20,7 @@ interests:
 - Artificial Intelligence
 - Cognitive Computing
 - Algorithms and Coding
+- Interactive Web Applications
 organizations:
 - name: St.Xavier's College (Autonomous), Kolkata
   url: https://www.sxccal.edu/
@@ -47,8 +48,8 @@ superuser: true
 title: Somjit Roy
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Somjit Roy is currently an undergrad in Statistics at St.Xavier's College (Autonomous), Kolkata. Having done his schooling from The Assembly of God Church School, with his majors in Mathematics, Physics, Chemistry and Computer Science, he was always inclined towards Maths and Computer Science, also developing a knack for Organic Chemistry. Being drawn towards Mathematics majorly, he is completing his undergraduate degree in Statistics, with main interests and focus in Theoretical and Applied Statistics (Design Of Experiments and Time Series Analysis), Applied Probability (Probability Theory, Stochastic Processes, Markov Chains, Random Walks and Martingales), Data Science and Machine Learning.   
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+As far as the Non-Statistics Background is concerned, he focuses on development of interactive web applications and found himself to invest a fair share of his time in developing R-Packages to enhance the applicability of the theories and concepts learned in his undergraduate days.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
