@@ -26,11 +26,12 @@ item:
 - certificate_url: https://drive.google.com/file/d/1awuPkX-vrTjAedUARxvJACUGQaUw9P63/view?usp=sharing
   date_end: ""
   date_start: "2019-05-01"
-  description: ""
+  description: An intern working on Statistical Analysis and Statistical Data Handling pertaining to Indian Parliamentary Results, 2019 under the guidance of Dr. Prof. Subhamoy Maitra, Applied Statistics Unit, ISI Kolkata. 
   organization: Indian Statistical Institute
   organization_url: https://www.isical.ac.in/
-  title: Internship at Indian Statistical Institute - First Year of College  
+  title: Summer Internship - Statistical Data Handling and Related Analysis  
   url: ""
+
 - certificate_url: https://www.edx.org
   date_end: ""
   date_start: "2021-01-01"
