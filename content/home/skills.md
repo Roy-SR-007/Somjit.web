@@ -41,6 +41,17 @@ feature:
   icon_pack: fab
   name: JS, HTML, CSS
   
+- description: 70%
+  icon: html5
+  icon_pack: fab
+  name: JS, HTML, CSS
+
+- description: 70%
+  icon: chart-area
+  icon_pack: fas
+  name: Tableau Public - Data Visualization
+  
+  
 - description: 100%
   icon: open-data
   icon_pack: ai
