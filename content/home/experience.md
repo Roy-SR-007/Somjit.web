@@ -41,8 +41,8 @@ experience:
     company_url: 'https://www.isical.ac.in/'
     company_logo: isi
     location: Kolkata
-    date_start: '2020-05-29'
-    date_end: '2020-08-16'
+    date_start: '2020-29-05'
+    date_end: '2020-16-08'
     description: Dealt with the Applications in the broad area of Statistics and Machine Learning, considering the following two topics : i) A Statistical Walk through the Pandemic, COVID - 19 and ii) An Analysis on the Technical Behaviour of the Elderly.
 
 design:
