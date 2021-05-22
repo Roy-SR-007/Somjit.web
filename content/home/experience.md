@@ -28,7 +28,7 @@ experience:
     company_logo: tata
     location: Kolkata
     date_start: '2021-05-05'
-    date_end: ''
+    date_end: 'https://www.tata.com/'
     description: |2-
         Responsibilities include:
         
@@ -36,14 +36,14 @@ experience:
         * Modelling
         * Improving on Process Parameters
         
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: latex
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Summer Intern
+    company: Indian Statistical Institute, Kolkata
+    company_url: 'https://www.isical.ac.in/'
+    company_logo: isi
+    location: Kolkata
+    date_start: '2020-05-29'
+    date_end: '2020-08-16'
+    description: Dealt with the Applications in the broad area of Statistics and MAchine Learning, considering the following two topics : i) A Statistical Walk through the Pandemic, COVID - 19 and ii) An Analysis on the Technical Behaviour of the Elderly.
 
 design:
   columns: '2'
