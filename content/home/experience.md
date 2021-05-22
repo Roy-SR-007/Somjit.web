@@ -46,9 +46,9 @@ experience:
     description: |2-
         Responsibilities include:
         
-        * Analysing 
-        * Modelling
-        * Improving on Process Parameters
+        * Dealing with applications in the broad area of Machine Learning and Statistics 
+        * Topic 1: A Walk through the pandemic - COVID - 19
+        * Topic 2 - An Analysis on the Technical Behavior of the Elderly
 
 design:
   columns: '2'
