@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 links:
 - icon: semantic-scholar
-  icon_pack: fab
+  icon_pack: ai
   name: Read Paper
   url: https://drive.google.com/file/d/1RqmLXn1j7C_jKVWX55FuC-mNFg6VXAns/view?usp=sharinghttps://twitter.com/georgecushen
 #slides: example
