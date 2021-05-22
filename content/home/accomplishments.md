@@ -32,14 +32,15 @@ item:
   title: Summer Internship - Statistical Data Handling and Related Analysis  
   url: ""
 
-- certificate_url: https://www.edx.org
+- certificate_url: https://drive.google.com/file/d/1awuPkX-vrTjAedUARxvJACUGQaUw9P63/view?usp=sharing
   date_end: ""
-  date_start: "2021-01-01"
-  description: Formulated informed blockchain models, hypotheses, and use cases.
-  organization: edX
-  organization_url: https://www.edx.org
-  title: Blockchain Fundamentals
-  url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+  date_start: "2020-05-01"
+  description: Experienced working and nurturing Machine Learning Models to formulate the scenario of COVID-19 in India. Also analyzed the changes in the Technical Behavior of the Elderly using various Statistical Tools. Interned under the supervision of Dr. Prof. Subhamoy Maitra, Applied Statistics Unit, ISI Kolkata.
+  organization: Indian Statistical Institute
+  organization_url: https://www.isical.ac.in/
+  title: Summer Internship - Broad Area of Statistics and Machine Learning
+  url: ""
+  
 - certificate_url: https://www.datacamp.com
   date_end: "2020-12-21"
   date_start: "2020-07-01"
