@@ -44,7 +44,7 @@ item:
 - certificate_url: https://drive.google.com/file/d/1jovGRMuMTWX22YFE6T-lodp6EKOBqlwa/view?usp=sharing
   date_end: "2019-07-01"
   date_start: "2019-04-01"
-  description: Attended the Explore ML workshop organized by Google in collaboration with St.Xavier's College (Autonomous), Kolkata under the supervision of the Google Developers and Explore ML Program Manager, Aida Martinez. Was introduced various techniques of Machine Learning, Image Classification and Bootstrapping using the Python Programming Language.  
+  description: Attended the Explore ML workshop organized by Google in collaboration with St.Xavier's College (Autonomous), Kolkata under the supervision of the Google Developers and Explore ML Program Manager, Aida Martinez. Was introduced various techniques of Machine Learning, Deep LEarning, Image Classification and Bootstrapping using the Python Programming Language.  
   organization: Google
   organization_url: https://developers.google.com/machine-learning/crash-course
   title: Google AI | Explore ML
