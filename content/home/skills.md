@@ -30,6 +30,11 @@ feature:
   icon: python
   icon_pack: fab
   name: Python
+
+- description: 100%
+  icon: latex
+  icon_pack: custom
+  name: Latex
   
 - description: 70%
   icon: html5
