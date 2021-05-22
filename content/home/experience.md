@@ -49,7 +49,15 @@ experience:
         * Dealing with applications in the broad area of Machine Learning and Statistics 
         * Topic 1: A Walk through the pandemic - COVID - 19
         * Topic 2 - An Analysis on the Technical Behavior of the Elderly
-
+        
+  - title: Trainee at MTUSS - Mathematics Training to Undergraduate Statistics Student Programme
+    company: Department of Statistics and Mathematics, Calcutta University
+    company_url: 'https://sites.google.com/view/mtuss/home'
+    company_logo: cu
+    location: Kolkata
+    date_start: '2020-01-01'
+    date_end: '2020-03-01'
+    description: 'Learnt advanced Statistical and Mathematical Concepts and their applications along with implementations'
 design:
   columns: '2'
 ---
