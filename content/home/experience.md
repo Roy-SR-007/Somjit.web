@@ -43,7 +43,7 @@ experience:
     location: Kolkata
     date_start: '2020-05-29'
     date_end: '2020-08-16'
-    description: Dealt with the Applications in the broad area of Statistics and Machine Learning, considering the following two topics : i) A Statistical Walk through the Pandemic, COVID - 19 and ii) An Analysis on the Technical Behavior of the Elderly.
+    description: Dealt with the applications in the broad area of statistics and machine learning, considering the following two topics : i) A statistical walk through the pandemic, COVID - 19 and ii) An analysis on the technical behavior of the elderly.
 
 design:
   columns: '2'
