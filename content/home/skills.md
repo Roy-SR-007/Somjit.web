@@ -39,7 +39,7 @@ feature:
 - description: 70%
   icon: html5
   icon_pack: fab
-  name: Web Development with JS, HTML
+  name: Web Development with JS, HTML, CSS
   
 - description: 100%
   icon: open-data
