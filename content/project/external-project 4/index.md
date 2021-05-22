@@ -13,5 +13,5 @@ image:
 summary: This is an extension to the package 'gamblers.ruin.gameplay' in CRAN. Intention is to develop an interactive Web Application using the 'shiny' library in R and hosting it using `shinyapps.io`. The application would provide the user a simulation of the Gambler's Ruin Problem, thereby giving a visual illustration of Random Walks and Markov Chains.
 tags:
 - An Interactive Web Application
-title: Developing an Interactive Web Application using Shiny
+title: Developing an Interactive Web Application using Shiny - Gambler's Ruin Simulator
 ---
