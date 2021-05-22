@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-- certificate_url: https://drive.google.com/file/d/1awuPkX-vrTjAedUARxvJACUGQaUw9P63/view?usp=sharing
+- certificate_url: https://drive.google.com/file/d/1v8SKYlZRpcjGciBKydlubrEexwG2Z9_7/view?usp=sharing
   date_end: ""
   date_start: "2019-05-01"
   description: An intern working on Statistical Analysis and Statistical Data Handling pertaining to Indian Parliamentary Results, 2019 under the guidance of Dr. Prof. Subhamoy Maitra, Applied Statistics Unit, ISI Kolkata. 
