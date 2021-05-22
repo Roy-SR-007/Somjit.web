@@ -25,11 +25,11 @@ date_format: Jan 2006
 item:
 - certificate_url: https://drive.google.com/file/d/1awuPkX-vrTjAedUARxvJACUGQaUw9P63/view?usp=sharing
   date_end: ""
-  date_start: "2021-01-25"
+  date_start: "2019-05-01"
   description: ""
-  organization: Coursera
-  organization_url: https://www.coursera.org
-  title: Neural Networks and Deep Learning
+  organization: Indian Statistical Institute
+  organization_url: https://www.isical.ac.in/
+  title: Internship at Indian Statistical Institute - First Year of College  
   url: ""
 - certificate_url: https://www.edx.org
   date_end: ""
