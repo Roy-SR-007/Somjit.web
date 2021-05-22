@@ -31,7 +31,7 @@ content:
     tag: R Packages
   - name: An Interactive Web Application
     tag: Web App
-  - name: Dissertation
+  - name: Research Papers
     tag: Thesis
 
 design:
