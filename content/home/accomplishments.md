@@ -41,13 +41,13 @@ item:
   title: Summer Internship - Broad Area of Statistics and Machine Learning
   url: ""
   
-- certificate_url: https://www.datacamp.com
-  date_end: "2020-12-21"
-  date_start: "2020-07-01"
-  description: ""
-  organization: DataCamp
-  organization_url: https://www.datacamp.com
-  title: 'Object-Oriented Programming in R'
+- certificate_url: https://drive.google.com/file/d/1jovGRMuMTWX22YFE6T-lodp6EKOBqlwa/view?usp=sharing
+  date_end: "2019-07-01"
+  date_start: "2019-04-01"
+  description: Attended the Explore ML workshop organized by Google in collaboration with St.Xavier's College (Autonomous), Kolkata under the supervision of the Google Developers and Explore ML Program Manager, Aida Martinez. Was introduced various techniques of Machine Learning, Image Classification and Bootstrapping using the Python Programming Language.  
+  organization: Google
+  organization_url: https://developers.google.com/machine-learning/crash-course
+  title: Google AI | Explore ML
   url: ""
 
 design:
