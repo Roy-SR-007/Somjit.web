@@ -18,7 +18,7 @@ tags:
 title: Situations of Random Supply in the Classical Newsboy Problem
 ---
 
-This paper was presented and published in the 107th Indian Science Congress held at the University of Agricultural Sciences, GKVK Campus, Bangalore. The research was conducted as a group including myself and my classmates - Tishyo Chakraborty, Soham Biswas and Arpita Saha, under the guidance of Prof. Dr. Ayan Chandra (Associate Professor in Department of Statistics at St.Xavier's College, Kolkata).
+This paper was presented and published in the 107th Indian Science Congress (ISC) held at the University of Agricultural Sciences, GKVK Campus, Bangalore. The research was conducted as a group including myself and my classmates - Tishyo Chakraborty, Soham Biswas and Arpita Saha, under the guidance of Prof. Dr. Ayan Chandra (Associate Professor in Department of Statistics at St.Xavier's College, Kolkata).
 
 In this paper we consider the Classical Newsboy (or Newsvendor) Problem. In this problem, a newsboy starts his day with a certain amount, say ‘q’, newspapers with him. The demand being random, at the end of the day he might face shortage or may be left with some excess newspapers in his hand. Accordingly, he has to incur shortage or excess cost. The demand being random, naturally, the cost incurred will also be a random variable. The problem is to determine the optimal order quantity (q) so that the expected total cost is minimized.
 
