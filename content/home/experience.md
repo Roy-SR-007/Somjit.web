@@ -57,7 +57,7 @@ experience:
     location: Kolkata
     date_start: '2020-01-01'
     date_end: '2020-03-01'
-    description: 'Learnt advanced Statistical and Mathematical Concepts and their applications along with implementations.'
+    description: 'Learnt advanced Statistical and Mathematical Concepts and their applications along with implementations'
     
   - title: Paper Presenter at 107th Indian Science Congress 
     company: Indian Science Congress Association, University of Agricultural Sciences, Bangalore, GKVK Campus
@@ -66,7 +66,7 @@ experience:
     location: Bangalore
     date_start: '2020-01-03'
     date_end: '2020-01-07'
-    description: 'Presented research papers related to the field of Applied Probability.
+    description: 'Presented research papers related to the field of Applied Probability
     
     * Situations of Random Supply in a Classical Newsboy Problem and Alternative Optimality Citeria in a Newsvendor Problem'
     
