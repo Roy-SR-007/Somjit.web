@@ -66,10 +66,10 @@ experience:
     location: Bangalore
     date_start: '2020-01-03'
     date_end: '2020-01-07'
-    description: 'Presented research papers related to the field of Applied Probability.'
+    description: 'Presented research papers related to the field of Applied Probability.
     
     * Situations of Random Supply in a Classical Newsboy Problem
-    * Alternative Optimality Citeria in a Newsvendor Problem
+    * Alternative Optimality Citeria in a Newsvendor Problem'
     
     
     
