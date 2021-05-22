@@ -31,10 +31,10 @@ feature:
   icon_pack: fab
   name: Python
 
-- description: 100%
-  icon: latex
+- description: "100%"
+  icon: "latex"
   icon_pack: "custom"
-  name: Latex
+  name: "Latex"
   
 - description: 70%
   icon: html5
