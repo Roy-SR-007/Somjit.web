@@ -3,21 +3,23 @@ bio: My research interests include distributed robotics, mobile computing and pr
   matter.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: BSc. in Statistics Hons.
+    institution: St.Xavier's College (Autonomous), Kolkata
+    year: 2018-2021
+  - course: Schooling (Science Stream)
+    institution: The Assembly of God Church School, Park Street, Kolkata
+    year: 2004-2018
 email: "somjit.roy2001@gmail.com"
 highlight_name: true
 interests:
+- Theoretical Statistics
+- Mathematics
+- Cryptography
+- Data Science
+- Machine Learning
 - Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Cognitive Computing
+- Algorithms and Coding
 organizations:
 - name: St.Xavier's College (Autonomous), Kolkata
   url: https://www.sxccal.edu/
