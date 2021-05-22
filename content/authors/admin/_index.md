@@ -32,8 +32,8 @@ social:
   icon_pack: fab
   label: Follow me on Twitter
   link: https://twitter.com/SomjitRoy2
-- icon: graduation-cap
-  icon_pack: fas
+- icon: orcid
+  icon_pack: ai
   link: https://orcid.org/0000-0002-3012-8430
 - icon: github
   icon_pack: fab

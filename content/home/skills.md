@@ -33,7 +33,7 @@ feature:
 
 - description: 100%
   icon: latex
-  icon_pack: custom
+  icon_pack: "custom"
   name: Latex
   
 - description: 70%
