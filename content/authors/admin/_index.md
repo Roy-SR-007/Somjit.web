@@ -1,6 +1,5 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: Loves to learn new things !
 education:
   courses:
   - course: BSc. in Statistics Hons.
