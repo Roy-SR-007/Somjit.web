@@ -30,9 +30,8 @@ address:
   country: India
   country_code: IND
 coordinates:
-  latitude: '27.2046'
-  longitude: '77.4977'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+  latitude: '22.607741'
+  longitude: '88.399818'
 office_hours:
   - 'Monday 10:00 to 13:00'
   - 'Wednesday 09:00 to 10:00'
