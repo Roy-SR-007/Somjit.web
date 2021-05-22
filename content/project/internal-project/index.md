@@ -4,11 +4,11 @@ external_link: ""
 image:
   caption: GRP
   focal_point: Smart
-#links:
-#- icon: twitter
-#  icon_pack: fab
-#  name: Follow
-#  url: https://twitter.com/georgecushen
+links:
+- icon: semantic-scholar
+  icon_pack: fab
+  name: Read Paper
+  url: https://drive.google.com/file/d/1RqmLXn1j7C_jKVWX55FuC-mNFg6VXAns/view?usp=sharinghttps://twitter.com/georgecushen
 #slides: example
 summary: A paper introducing and illustrating the Gambler's Ruin Problem and its applications, relating it to many real world phenomenon, along with the highlights of the associated concepts such as Markov Chains, Random Walks and Stochastic Processes. The topic also includes quite a few simulations aided with visual representations. 
 tags:
