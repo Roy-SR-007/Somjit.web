@@ -32,8 +32,8 @@ feature:
   name: Python
 
 - description: 100%
-  icon: latex-1
-  icon_pack: custom
+  icon: envira
+  icon_pack: fab
   name: Latex
   
 - description: 70%
