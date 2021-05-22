@@ -50,6 +50,16 @@ item:
   title: Google AI | Explore ML
   url: ""
 
+- documentation_url: https://cran.r-project.org/
+  date_end: "2021-04-28"
+  date_start: "2021-05-15"
+  description: Built R-Packages, which got successfully published on the CRAN, i.e., the package repository for R-Software. The pacakges includes 'YatesAlgo.FactorialExp.SR', 'TrtCombo.FactorialExp.SR' and 'gamblers.ruin.gameplay'.  
+  organization: CRAN (Comprehensive R-Archive Network)
+  organization_url: https://cran.r-project.org/
+  title: Developed R-Packages
+  url: ""
+
+
 design:
   columns: '2' 
 ---
