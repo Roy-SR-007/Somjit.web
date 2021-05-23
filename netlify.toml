@@ -1,7 +1,7 @@
 [build]
   command = "hugo --gc --minify -b $URL"
   publish = "public"
-  CI = "npm run build"
+  command = "CI = npm run build"
 
 [build.environment]
   HUGO_VERSION = "0.83.1"
