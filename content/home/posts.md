@@ -28,7 +28,7 @@ content:
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
   - name: Web Development
-    tag: Web Dev
+    tag: WebDev
   - name: Academics
     tag: Academics
   - name: For Fun

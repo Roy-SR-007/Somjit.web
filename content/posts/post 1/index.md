@@ -11,7 +11,7 @@ links:
   url: https://shilaan.rbind.io/post/building-your-website-using-r-blogdown/
 summary: A brief demonstration of the steps and techniques behind the development of my website. 
 tags:
-- Web Dev
+- WebDev
 title: R Blogdown, GitHub, Netlify and Hugo - Website Development
 ---
 
