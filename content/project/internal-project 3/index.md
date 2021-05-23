@@ -25,8 +25,9 @@ In this paper, some alternative methods of determining the optimal order quantit
 
 If the standard deviation of the distribution of cost is large enough, then    mean minimization of the cost distribution may not give a satisfactory         result as the actual cost incurred in any particular case may be higher than  the expected cost.
 Under this circumstance, the optimal order quantity may be obtained by,
-   a) 'MINIMISING THE STANDARD DEVIATION OF THE COST DISTRIBUTION'.
-   b) 'MINIMISING THE COEFFICIENT OF VARIATION OF THE COST DISTRIBUTION'.
+
+a) 'MINIMISING THE STANDARD DEVIATION OF THE COST DISTRIBUTION'.
+b) 'MINIMISING THE COEFFICIENT OF VARIATION OF THE COST DISTRIBUTION'.
    
 The optimal order quantity may also be obtained by minimizing the sum of       expectation and ‘k’ times the standard deviation of the cost deviation,        where k is a chosen constant, i.e. by 'MINIMISING THE STANDARD DEVIATION      PENALISED MEAN OF THE COST DISTRIBUION'.
 
