@@ -9,7 +9,7 @@ links:
   icon_pack: ai
   name: Read Paper
   url: https://drive.google.com/file/d/1sIWjv9FAT12DLlDU1dQyRXEoLalVDUBU/view?usp=sharing
-summary: A brief introduction to the Classical Newsboy Problem along with the distinct situations of random supply.
+summary: A brief introduction to the Classical Newsboy Problem along with the distinct situations of random supply, with the determination of the optimal order quantity using mean minimization.
 tags:
 - Thesis
 title: Situations of Random Supply in the Classical Newsboy Problem
