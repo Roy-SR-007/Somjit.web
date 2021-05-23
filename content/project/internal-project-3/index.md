@@ -8,29 +8,18 @@ links:
 - icon: semantic-scholar
   icon_pack: ai
   name: Read Paper
-  url: https://drive.google.com/file/d/1VxuzDTaunTciE8AKareFBKlmDm7mkLgZ/view?usp=sharing
-
-summary: The Classical Newsboy Problem deals mainly with mean minimizing solution to obtain the optimal order quantity. In this paper we would resort to some Alternative Optimality Criteria to obtain the optimal order quantity, namely 'Minimization of Standard Deviation of the Cost Distribution', 'Minimization of Coefficient of Variation of the Cost Distribution', 'Minimization of Standard Deviation Penalized Mean of the Cost Distribution',
-'Minimization of the Modal Cost' and 'Minimization of the probability of the Cost Distribution exceeding a given high value'. Considering two realistic situations, i.e., firstly when supply is same and secondly when supply varies with the order quantity, we discuss the above procedures briefly with derivations and numerical illustrations. 
+  url: https://drive.google.com/file/d/1sIWjv9FAT12DLlDU1dQyRXEoLalVDUBU/view?usp=sharing
+#slides: example
+summary: Classical Newsboy Problem accepts the monotonicity of the job of newsboys but offers great profits. In this practical situation, newsboys has a certain amount of newspapers with them, the demand (X) of newspapers being random. In the following problem proposed considering two cases: supply of newspapers- when it is same and random with respect to order quantity, we derive the optimal order quantity using the cost function for different probability distributions which the demand follows, by mean minimizing technique and thus finding out total optimal cost.
 
 tags:
 - Thesis
-title: Newsvendor Problem - Alternative Optimality Criteria
+title: Situations of Random Supply in the Classical Newsboy Problem
 ---
 
-We consider the Newsvendor model where a newspaper vendor starts with ‘q’ newspapers. Let the demand be random. As a result, he eventually incurs either shortage cost or excess cost corresponding to excess demand or lack of demand.
-The classical solution involves the determination of the optimal order quantity by mean minimizing the total cost.
+This paper was presented and published in the 107th Indian Science Congress (ISC) held at the University of Agricultural Sciences, GKVK Campus, Bangalore. The research was conducted as a group including myself and my classmates - Tishyo Chakraborty, Soham Biswas and Arpita Saha, under the guidance of Prof. Dr. Ayan Chandra (Associate Professor in Department of Statistics at St.Xavier's College, Kolkata).
 
-In this paper, some alternative methods of determining the optimal order quantity are considered, which are as follows:
+In this paper we consider the Classical Newsboy (or Newsvendor) Problem. In this problem, a newsboy starts his day with a certain amount, say ‘q’, newspapers with him. The demand being random, at the end of the day he might face shortage or may be left with some excess newspapers in his hand. Accordingly, he has to incur shortage or excess cost. The demand being random, naturally, the cost incurred will also be a random variable. The problem is to determine the optimal order quantity (q) so that the expected total cost is minimized.
 
-If the standard deviation of the distribution of cost is large enough, then    mean minimization of the cost distribution may not give a satisfactory         result as the actual cost incurred in any particular case may be higher than  the expected cost.
-Under this circumstance, the optimal order quantity may be obtained by,
+We have considered a more practical situation where whatever is ordered by the newspaper vendor, it is not same as what is received. In other words, Supply is not same as the order quantity. This problem often arises in production inventory situation. Here we have considered the situation where supply varies around the order quantity. Demand distribution of both finite range (viz., Beta with varying parameters, Rectangular Distribution with its parameters) and infinite range (viz., exponential) have been considered, while supply has been considered to vary uniformly around the order quantity. Some numerical examples have also been worked out and a comparison of optimal order quantity and the optimal cost between the classical situation and the situation of random supply has been conducted.
 
-a) 'MINIMISING THE STANDARD DEVIATION OF THE COST DISTRIBUTION'.
-b) 'MINIMISING THE COEFFICIENT OF VARIATION OF THE COST DISTRIBUTION'.
-   
-The optimal order quantity may also be obtained by minimizing the sum of       expectation and ‘k’ times the standard deviation of the cost deviation,        where k is a chosen constant, i.e. by 'MINIMISING THE STANDARD DEVIATION      PENALISED MEAN OF THE COST DISTRIBUION'.
-
-Ensuring that the maximum possible cost is minimized (similar in principal     to the Minimax criterion) the optimal orders may be obtained by 'MINIMISING    THE MODAL COST'.
-
-Another approach to find out the optimal order quantity is to safeguard        against the cost by 'MINIMISING THE PROBABILITY OF THE COST DISTRIBUTION       EXCEEDING A GIVEN HIGH VALUE'.
