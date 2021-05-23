@@ -9,7 +9,7 @@ links:
   icon_pack: ai
   name: Read Paper
   url: https://drive.google.com/file/d/1VxuzDTaunTciE8AKareFBKlmDm7mkLgZ/view?usp=sharing
-#slides: example
+
 summary: The Classical Newsboy Problem deals mainly with mean minimizing solution to obtain the optimal order quantity. In this paper we would resort to some Alternative Optimality Criteria to obtain the optimal order quantity, namely 'Minimization of Standard Deviation of the Cost Distribution', 'Minimization of Coefficient of Variation of the Cost Distribution', 'Minimization of Standard Deviation Penalized Mean of the Cost Distribution',
 'Minimization of the Modal Cost' and 'Minimization of the probability of the Cost Distribution exceeding a given high value'. Considering two realistic situations, i.e., firstly when supply is same and secondly when supply varies with the order quantity, we discuss the above procedures briefly with derivations and numerical illustrations. 
 
