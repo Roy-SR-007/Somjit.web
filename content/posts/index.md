@@ -1,0 +1,35 @@
+---
+date: "2016-04-27T00:00:00Z"
+external_link: ""
+image:
+  caption: [https://mikeyharper.uk/migrating-to-blogdown/](mikeharper.uk)
+  focal_point: Smart
+links:
+- icon: semantic-scholar
+  icon_pack: ai
+  name: Credits to Shilaan Alzahawi
+  url: https://shilaan.rbind.io/post/building-your-website-using-r-blogdown/
+summary: A brief demonstration of the steps and techniques behind the development of my website. 
+tags:
+- Web Dev
+title: R Blogdown, GitHub, Netlify and Hugo - Website Development
+---
+
+This is the extension to the paper 'Situations of Random Supply in a Classical Newsboy Problem', which discusses and considers alternative approaches of determining the optimal order quantity apart from mean minimzation. The research was done and conducted by myself and other classmates including Ishani Karmakar, Aditya Pal Chaudhuri and Subharanjan Mandal, under the guidance of Prof. Dr. Ayan Chandra (Associate Professor in Department of Statistics at St.Xavier's College, Kolkata).
+
+We consider the Newsvendor model where a newspaper vendor starts with ‘q’ newspapers. Let the demand be random. As a result, he eventually incurs either shortage cost or excess cost corresponding to excess demand or lack of demand.
+The classical solution involves the determination of the optimal order quantity by mean minimizing the total cost.
+
+In this paper, some alternative methods of determining the optimal order quantity are considered, which are as follows:
+
+If the standard deviation of the distribution of cost is large enough, then    mean minimization of the cost distribution may not give a satisfactory result as the actual cost incurred in any particular case may be higher than  the expected cost.
+Under this circumstance, the optimal order quantity may be obtained by,
+
+a) `MINIMISING THE STANDARD DEVIATION OF THE COST DISTRIBUTION`.
+b) `MINIMISING THE COEFFICIENT OF VARIATION OF THE COST DISTRIBUTION`.
+   
+The optimal order quantity may also be obtained by minimizing the sum of expectation and ‘k’ times the standard deviation of the cost deviation, where k is a chosen constant, i.e. by `MINIMISING THE STANDARD DEVIATION PENALISED MEAN OF THE COST DISTRIBUION`.
+
+Ensuring that the maximum possible cost is minimized (similar in principal to the Minimax criterion) the optimal orders may be obtained by `MINIMISING THE MODAL COST`.
+
+Another approach to find out the optimal order quantity is to safeguard against the cost by `MINIMISING THE PROBABILITY OF THE COST DISTRIBUTION EXCEEDING A GIVEN HIGH VALUE`.
