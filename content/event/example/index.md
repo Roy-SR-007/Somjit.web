@@ -1,5 +1,4 @@
 ---
-date: "2021-05-24T02:00:00Z"
 external_link: ""
 image:
   caption: 'Image credit: [**mikeyharper.uk**](https://mikeyharper.uk/migrating-to-blogdown/)'
