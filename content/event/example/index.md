@@ -3,7 +3,7 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
   convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac
   faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien
   eu, pulvinar tempor diam.
-#date: "2021-05-24T00:00:00Z"
+date: "2021-05-24T00:00:00Z"
 image:
   caption: 'Image credit: [**mikeyharper.uk**](https://mikeyharper.uk/migrating-to-blogdown/)'
   focal_point: Smart
