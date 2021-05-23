@@ -1,7 +1,7 @@
 ---
 # An instance of the Pages widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: pages
+widget: portfolio
 
 active : true
 
@@ -9,7 +9,7 @@ active : true
 headless: true
 
 # Order that this section appears on the page.
-weight: 60
+weight: 65
 
 title: Blogs & Posts
 subtitle:
