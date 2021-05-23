@@ -28,4 +28,4 @@ In this paper, some alternative methods of determining the optimal order quantit
    
 2. The optimal order quantity may also be obtained by minimizing the sum of       expectation and ‘k’ times the standard deviation of the cost deviation,        where k is a chosen constant, i.e. by `MINIMISING THE STANDARD DEVIATION        PENALISED MEAN OF THE COST DISTRIBUION`.
 3. Ensuring that the maximum possible cost is minimized (similar in principal     to the Minimax criterion) the optimal orders may be obtained by `MINIMISING     THE MODAL COST`.
-4. Another approach to find out the optimal order quantity is to safeguard        against the cost by `MINIMISING THE PROBABILITY OF THE COST DISTRIBUTION        EXCEEDING A GIVEN HIGH VALUE`.
+4. Another approach to find out the optimal order quantity is to safeguard        against the cost by `MINIMISING THE PROBABILITY OF THE COST DISTRIBUTION       EXCEEDING A GIVEN HIGH VALUE`.
