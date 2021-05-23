@@ -10,8 +10,7 @@ links:
   name: Read Paper
   url: https://drive.google.com/file/d/1sIWjv9FAT12DLlDU1dQyRXEoLalVDUBU/view?usp=sharing
 #slides: example
-summary: Classical Newsboy Problem accepts the monotonicity of the job of newsboys but offers great profits. In this practical situation, newsboys has a certain amount of newspapers with them, the demand (X) of newspapers being random.
-In the following problem proposed considering two cases: supply of newspapers- when it is same and random with respect to order quantity, we derive the optimal order quantity using the cost function for different probability distributions which the demand follows; by mean minimizing technique and thus finding out total optimal cost.
+summary: Classical Newsboy Problem accepts the monotonicity of the job of newsboys but offers great profits. In this practical situation, newsboys has a certain amount of newspapers with them, the demand (X) of newspapers being random. In the following problem proposed considering two cases: supply of newspapers- when it is same and random with respect to order quantity, we derive the optimal order quantity using the cost function for different probability distributions which the demand follows, by mean minimizing technique and thus finding out total optimal cost.
 
 tags:
 - Thesis
