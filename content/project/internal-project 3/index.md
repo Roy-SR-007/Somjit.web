@@ -18,7 +18,6 @@ tags:
 title: Newsvendor Problem : Alternative Optimality Criteria
 ---
 
-
 We consider the Newsvendor model where a newspaper vendor starts with ‘q’ newspapers. Let the demand be random. As a result, he eventually incurs either shortage cost or excess cost corresponding to excess demand or lack of demand.
 The classical solution involves the determination of the optimal order quantity by mean minimizing the total cost.
 
