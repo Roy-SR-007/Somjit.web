@@ -83,8 +83,8 @@ Giving a black background to the plot using the function `theme()`
 Now, once the subplot to be placed in the sticker has been figured out and developed, the function `sticker()` is used for generating the desired hexagonal sticker.
 
 > sticker(q, package="YatesAlgo.FactorialExp.SR", p_size=6, \
-> s_x=1.0, s_y=0.9, s_width=1.7, s_height=1.3, p_x = 1.0, \
-> p_y = 1.6, url = "https://cran.r-project.org/package=YatesAlgo.FactorialExp.SR", \
-> u_color = "white", u_size = 2.6,\
-> h_fill="black", h_color="grey",dpi=300,h_size=0.5)
+    s_x=1.0, s_y=0.9, s_width=1.7, s_height=1.3, p_x = 1.0, \
+    p_y = 1.6, url = "https://cran.r-project.org/package=YatesAlgo.FactorialExp.SR", \
+    u_color = "white", u_size = 2.6,\
+    h_fill="black", h_color="grey",dpi=300,h_size=0.5)
 
