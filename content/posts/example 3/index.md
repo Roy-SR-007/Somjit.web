@@ -100,6 +100,6 @@ While making the hexagonal sticker, I personally faced some errors as shown by R
 > Error in geom_subview(subview = subplot, x = s_x, y = s_y, width = s_width,  : 
                           subview must be provided
                           
-The above error got debugged, as soon as I used a ggplot object. Any insights as to why this happens will be highly appreciated. 
+The above error got debugged, as soon as I used a `ggplot` object. Any insights as to why this happens will be highly appreciated. 
 
 
