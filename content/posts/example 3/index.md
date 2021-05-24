@@ -26,3 +26,16 @@ The package named `hexSticker` enables us to develop and design different hexago
 **Step 1** :: **Installing and loading the required packages for the task**
 
 > install.packages("hexSticker")
+> install.packages("ggplot2")
+
+**Step 2** :: **Load the installed packages using the library() command**
+
+> library(hexSticker)
+> library(ggplot2)
+
+**Step 3** :: **Creating a subplot for our sticker**
+
+For this step we develop a simple plot that would eventually be placed at the center of the sticker.
+
+![The Subplot](content/posts/example 3/subplot.png)
+
