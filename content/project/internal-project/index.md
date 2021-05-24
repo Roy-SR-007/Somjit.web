@@ -26,3 +26,8 @@ Primary concepts associated to the problem at hand, such as Stochastic Processes
 The usage of transition probabilities and transition probability matrices helped to add another dimension to the solution of the Gambler's Ruin Problem.
 
 Categorical usage of Monte Carlo Simulations has been done to simulate different gambling games, along with the mutli dimensional gambler's ruin problem, i.e., the N-player ruin game.
+
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/Somjit Roy_402_HSTDS6043D.pdf" "newtab" >}}resumé{{< /staticref >}}.
+
+
+
