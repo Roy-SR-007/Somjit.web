@@ -51,8 +51,8 @@ A Function `f()` to generate the (x,y) coordinates for the subplot.
 > {\
 >   u = runif(n)\
 >   v = runif(n)   
->   x = cos(2pi{u})sqrt(-2log(v)) # for representation `*` has been omitted\
->   y = sin(2pi{v})sqrt(-2log(u)) # for representation `*` has been omitted\
+>   x = cos(2pi{u})sqrt(-2log(v)) # for representation `*` is omitted\
+>   y = sin(2pi{v})sqrt(-2log(u)) # for representation `*` is omitted\
 >   r = list(x=x, y=y)\
 >   return(r)\
 > }
