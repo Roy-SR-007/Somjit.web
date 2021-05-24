@@ -89,7 +89,13 @@ Now, once the subplot to be placed in the sticker has been figured out and devel
     u_color = "white", u_size = 2.6,\
     h_fill="black", h_color="grey",dpi=300,h_size=0.5)
     
-The function `sticker()` has distinct parameters to alter which modifies the sticker created as per one's need. It is recommended that the documentation of the function should be thoroughly followed and read. Find the documentation here {{< icon name="download" pack="fas" >}}{{< staticref "media/hexSticker.pdf" "newtab" >}}hexSticker{{< /staticref >}}.
+The function `sticker()` has distinct parameters to alter which modifies the sticker created as per one's need. The parameters are are,
+
+* `s_x`, `s_y` :: which controls the x and y position of the subplot.
+* `p_x`, `p_y` :: which controls the x and y positions of the package name displayed.
+* `h_fill`     :: which controls the color with which the hexagon is to be filled, etc...
+
+It is recommended that the documentation of the function should be thoroughly followed and read. Find the documentation here {{< icon name="download" pack="fas" >}}{{< staticref "media/hexSticker.pdf" "newtab" >}}hexSticker{{< /staticref >}}.
 
 That's it! Your hex sticker is ready to be used and shared.
 
