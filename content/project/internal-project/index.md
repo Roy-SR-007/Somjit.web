@@ -4,11 +4,11 @@ external_link: ""
 image:
   caption: GRP
   focal_point: Smart
-links:
-- icon: semantic-scholar
-  icon_pack: ai
-  name: Read Paper
-  url: https://drive.google.com/file/d/1RqmLXn1j7C_jKVWX55FuC-mNFg6VXAns/view?usp=sharing
+#links:
+#- icon: semantic-scholar
+#  icon_pack: ai
+#  name: Read Paper
+#  url: https://drive.google.com/file/d/1RqmLXn1j7C_jKVWX55FuC-mNFg6VXAns/view?usp=sharing
 summary: A paper introducing and illustrating the Gambler's Ruin Problem and its applications, relating it to many real world phenomenon, along with the highlights of the associated concepts such as Markov Chains, Random Walks and Stochastic Processes. The topic also includes quite a few simulations aided with visual representations. 
 tags:
 - Thesis
@@ -25,9 +25,9 @@ Primary concepts associated to the problem at hand, such as Stochastic Processes
 
 The usage of transition probabilities and transition probability matrices helped to add another dimension to the solution of the Gambler's Ruin Problem.
 
-Categorical usage of Monte Carlo Simulations has been done to simulate different gambling games, along with the mutli dimensional gambler's ruin problem, i.e., the N-player ruin game.
+Categorical usage of Monte Carlo Simulations has been done to simulate different gambling games, along with the multi-dimensional gambler's ruin problem, i.e., the N-player ruin game.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/Somjit Roy_402_HSTDS6043D.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="semantic-scholar" pack="ai" >}} Read {{< staticref "media/Somjit Roy_402_HSTDS6043D.pdf" "newtab" >}}paper{{< /staticref >}}.
 
 
 
