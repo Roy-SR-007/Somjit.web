@@ -41,26 +41,40 @@ For this step we develop a simple plot that would eventually be placed at the ce
 
 **Code for the above plot**
 
-> set.seed(20) # Setting the seed to 20 for uniformity of the diagram generated\
-> \
-> f = function(n) # A Function to develop the (x,y) coordinates for the subplot\
-> {
->   u = runif(n)
+Setting the seed to `20` for uniformity of the diagram generated.
+
+> set.seed(20)
+
+A Function `f()` to generate the (x,y) coordinates for the subplot.
+
+> f = function(n)
+> {\
+>   u = runif(n)\
 >   v = runif(n)   
->   x = cos(2*pi*u)*sqrt(-2*log(v)) 
->   y = sin(2*pi*v)*sqrt(-2*log(u))
->   r = list(x=x, y=y)
->   return(r)
-> }\
-> \
-> r = f(5000) # Generating 5000 pairs of (x,y) coordinates
-> \
+>   x = cos(2*pi*u)*sqrt(-2*log(v))\
+>   y = sin(2*pi*v)*sqrt(-2*log(u))\
+>   r = list(x=x, y=y)\
+>   return(r)\
+> }
+
+Generating `5000` pairs of (x,y) coordinates.
+
+> r = f(5000)
+
+Storing the observations in a data frame - `df()`.
+
 > df = data.frame(x=r$x,y=r$y)
-> \
-> col = c("#0047FA","#00B4FA","#00D6FA","#00FAF8") # chosing four different shades of blue
-> \
-> q = ggplot(df,aes(x = x, y = y)) +
-> geom_point(alpha=1.2, shape=20, color=rep(col,1250),size=0.01) + theme_void() # Creating the plot
-> \
-> q + theme(plot.background = element_rect(fill = "black")) # Adding a black background\
+
+Using four shades of the color `blue` for the subplot.
+
+> col = c("#0047FA","#00B4FA","#00D6FA","#00FAF8")
+
+Generating the plot using the command `ggplot()` in the package `ggplot2`
+
+> q = ggplot(df,aes(x = x, y = y)) +\
+> geom_point(alpha=1.2, shape=20, color=rep(col,1250),size=0.01) + theme_void() 
+
+Giving a black background to the plot using the function `theme()`
+
+> q + theme(plot.background = element_rect(fill = "black"))
 
