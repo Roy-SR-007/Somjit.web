@@ -37,5 +37,5 @@ The package named `hexSticker` enables us to develop and design different hexago
 
 For this step we develop a simple plot that would eventually be placed at the center of the sticker.
 
-![The Subplot](content/posts/example 3/subplot.png)
+![The Subplot](subplot.png)
 
