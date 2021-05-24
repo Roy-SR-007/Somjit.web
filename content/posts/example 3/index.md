@@ -91,7 +91,9 @@ Now, once the subplot to be placed in the sticker has been figured out and devel
     
 The function `sticker()` has distinct parameters to alter which modifies the sticker created as per one's need. It is recommended that the documentation of the function should be thoroughly followed and read. Find the documentation here {{< icon name="download" pack="fas" >}}{{< staticref "media/hexSticker.pdf" "newtab" >}}hexSticker{{< /staticref >}}.
 
-That's it! Your hex sticker is ready to be used or shared.
+That's it! Your hex sticker is ready to be used and shared.
+
+Hence we could be following these above mentioned steps to develop and generate multipurpose hexagonal stickers according to our own choice and need, using R.  
 
 **Errors to look out for while developing the sticker**
 
