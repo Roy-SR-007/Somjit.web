@@ -19,7 +19,7 @@ title: Designing Hexagonal Stickers in R - Combining hexSticker & ggplot2
 
 The package `ggplot2` is a widely used package, which through its uncountable components and applications, helps the users to delve deep into the area of data visualization and graphics.
 
-The package named `hexSticker` enables us to develop and design different hexagonal visualizations, especially `hexagonal stickers`, which in turn used as a `logo` to the developed `R-Packages`. Not only it used to represent a particular R-package but also sometimes used for generating emblems for events, conferences, business organizations, etc.
+The package named `hexSticker` enables us to develop and design different hexagonal visualizations, especially `hexagonal stickers`, which in turn are used as a `logo` to the developed `R-Packages`. Not only it used to represent a particular R-package but also sometimes used for generating emblems for events, conferences, business organizations, etc.
 
 **Motivation** :: In this write up, a brief introduction to the steps will be provided, in order to create a Hexagonal Sticker using the above two packages.
 
@@ -89,7 +89,7 @@ Now, once the subplot to be placed in the sticker has been figured out and devel
     u_color = "white", u_size = 2.6,\
     h_fill="black", h_color="grey",dpi=300,h_size=0.5)
     
-The function `sticker()` has distinct parameters to alter which modifies the sticker created as per one's need. The parameters are are,
+The function `sticker()` has distinct parameters to alter which modifies the sticker created as per one's need. Few of the parameters are,
 
 * `s_x`, `s_y` :: which controls the x and y position of the subplot.
 * `p_x`, `p_y` :: which controls the x and y positions of the package name displayed.
