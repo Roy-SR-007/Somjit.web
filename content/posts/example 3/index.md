@@ -21,4 +21,8 @@ The package `ggplot2` is a widely used package, which through its uncountable co
 
 The package named `hexSticker` enables us to develop and design different hexagonal visualizations, especially `hexagonal stickers`.
 
-**Motivation** :: In this write up, a brief introduction to the steps in order to create a Hexagonal Sticker using the above two packages will be discussed.
+**Motivation** :: In this write up, a brief introduction to the steps will be provided, in order to create a Hexagonal Sticker using the above two packages.
+
+**Step 1** :: **Installing and loading the required packages for the task**
+
+> install.packages("hexSticker")
