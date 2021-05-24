@@ -84,10 +84,22 @@ Now, once the subplot to be placed in the sticker has been figured out and devel
 
 > sticker(q, package="YatesAlgo.FactorialExp.SR", p_size=6, \
     s_x=1.0, s_y=0.9, s_width=1.7, s_height=1.3, p_x = 1.0, \
-    p_y = 1.6, \url = "https://cran.r-project.org/package=YatesAlgo.FactorialExp.SR", \
+    p_y = 1.6,\
+    url = "https://cran.r-project.org/package=YatesAlgo.FactorialExp.SR", \
     u_color = "white", u_size = 2.6,\
     h_fill="black", h_color="grey",dpi=300,h_size=0.5)
     
-The function `sticker()` has distinct parameters to alter and modify the sticker created as per one's need. It is recommended that the documentation of the function should be thoroughly followed and read. Find the documentation here {{< icon name="download" pack="fas" >}}{{< staticref "media/hexSticker.pdf" "newtab" >}}hexSticker{{< /staticref >}}.
+The function `sticker()` has distinct parameters to alter which modifies the sticker created as per one's need. It is recommended that the documentation of the function should be thoroughly followed and read. Find the documentation here {{< icon name="download" pack="fas" >}}{{< staticref "media/hexSticker.pdf" "newtab" >}}hexSticker{{< /staticref >}}.
+
+That's it! Your hex sticker is ready to be used or shared.
+
+**Errors to look out for while developing the sticker**
+
+While making the hexagonal sticker, I personally faced some errors as shown by R. The error pertains to the generation of subplot. At first I was trying to use a subplot which was made out of the function `plot()`. In the process, the following was displayed.
+
+> Error in geom_subview(subview = subplot, x = s_x, y = s_y, width = s_width,  : 
+                          subview must be provided
+                          
+The above error got debugged, as soon as I used a ggplot object. Any insights as to why this happens will be highly appreciated. 
 
 
