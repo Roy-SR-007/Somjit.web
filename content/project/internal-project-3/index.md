@@ -4,11 +4,11 @@ external_link: ""
 image:
   caption: CNBP
   focal_point: Smart
-links:
-- icon: semantic-scholar
-  icon_pack: ai
-  name: Read Paper
-  url: https://drive.google.com/file/d/1VxuzDTaunTciE8AKareFBKlmDm7mkLgZ/view?usp=sharing
+#links:
+#- icon: semantic-scholar
+#  icon_pack: ai
+#  name: Read Paper
+#  url: https://drive.google.com/file/d/1VxuzDTaunTciE8AKareFBKlmDm7mkLgZ/view?usp=sharing
 summary: An extension to the Classical Newsboy Problem, where we discuss certain other methods of determining the optimal order quantity apart from the classical approach of mean minimization.
 tags:
 - Thesis
@@ -33,3 +33,5 @@ The optimal order quantity may also be obtained by minimizing the sum of expecta
 Ensuring that the maximum possible cost is minimized (similar in principal to the Minimax criterion) the optimal orders may be obtained by `MINIMISING THE MODAL COST`.
 
 Another approach to find out the optimal order quantity is to safeguard against the cost by `MINIMISING THE PROBABILITY OF THE COST DISTRIBUTION EXCEEDING A GIVEN HIGH VALUE`.
+
+{{< icon name="semantic-scholar" pack="ai" >}}{{< staticref "media/ISC PAPER6.pdf" "newtab" >}}Read paper{{< /staticref >}}.
