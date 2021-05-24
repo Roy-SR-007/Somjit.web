@@ -42,7 +42,7 @@ social:
   link: https://github.com/Roy-SR-007
 - icon: linkedin
   icon_pack: fab
-  link: linkedin.com/in/somjit-r-6b0965114
+  link: https://www.linkedin.com/in/somjit-r-6b0965114?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BuImCp7e8Ql%2BMEGormFmXcg%3D%3D
 superuser: true
 title: Somjit Roy
 ---
