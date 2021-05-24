@@ -44,27 +44,23 @@ For this step we develop a simple plot that would eventually be placed at the ce
 > set.seed(20) # Setting the seed to 20 for uniformity of the diagram generated\
 > \
 > f = function(n) # A Function to develop the (x,y) coordinates for the subplot\
-> {\
->   u = runif(n)\  
->   v = runif(n)\   
->   x = cos(2*pi*u)*sqrt(-2*log(v))\ 
->   y = sin(2*pi*v)*sqrt(-2*log(u))\
->   r = list(x=x, y=y)\
->   return(r)\
+> {
+>   u = runif(n)
+>   v = runif(n)   
+>   x = cos(2*pi*u)*sqrt(-2*log(v)) 
+>   y = sin(2*pi*v)*sqrt(-2*log(u))
+>   r = list(x=x, y=y)
+>   return(r)
 > }\
 > \
-> r = f(5000) # Generating 5000 pairs of (x,y) coordinates\ 
+> r = f(5000) # Generating 5000 pairs of (x,y) coordinates
 > \
-> df = data.frame(x=r$x,y=r$y)\
+> df = data.frame(x=r$x,y=r$y)
 > \
-> # chosing four different shades of blue\
-> col = c("#0047FA","#00B4FA","#00D6FA","#00FAF8")\
+> col = c("#0047FA","#00B4FA","#00D6FA","#00FAF8") # chosing four different shades of blue
 > \
-> # Creating the plot using the ggplot() command and replicating the 4 shades of blue\ 
-> # chosen for 1250 times each for the corresponding 5000 pair of points generated\
-> \
-> q = ggplot(df,aes(x = x, y = y)) +\
-> geom_point(alpha=1.2, shape=20, color=rep(col,1250),size=0.01) + theme_void()\
+> q = ggplot(df,aes(x = x, y = y)) +
+> geom_point(alpha=1.2, shape=20, color=rep(col,1250),size=0.01) + theme_void() # Creating the plot
 > \
 > q + theme(plot.background = element_rect(fill = "black")) # Adding a black background\
 
