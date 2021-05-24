@@ -47,12 +47,12 @@ Setting the seed to `20` for uniformity of the diagram generated.
 
 A Function `f()` to generate the (x,y) coordinates for the subplot.
 
-> f = function(n)
+> f = function(n)\
 > {\
 >   u = runif(n)\
 >   v = runif(n)   
->   x = cos(2*pi*u)*sqrt(-2*log(v))\
->   y = sin(2*pi*v)*sqrt(-2*log(u))\
+>   x = cos(2pi{u})sqrt(-2log(v)) # for representation `*` has been omitted\
+>   y = sin(2pi{v})sqrt(-2log(u)) # for representation `*` has been omitted\
 >   r = list(x=x, y=y)\
 >   return(r)\
 > }
