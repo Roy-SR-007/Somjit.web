@@ -3,11 +3,11 @@ external_link: ""
 image:
   caption: '**YatesAlgo**'
   focal_point: Smart
-links:
-- icon: github-square
-  icon_pack: fab
-  name: Code Reference
-  url: https://github.com/Roy-SR-007/hexSticker-ggplot2
+#links:
+#- icon: github-square
+#  icon_pack: fab
+#  name: Code Reference
+#  url: https://github.com/Roy-SR-007/hexSticker-ggplot2
 summary: A description of using `hexSticker` and `ggplot2` to design **Hexagonal Stickers** for R-packages. 
 tags: []
 title: Designing Hexagonal Stickers in R - Combining hexSticker & ggplot2
@@ -84,7 +84,10 @@ Now, once the subplot to be placed in the sticker has been figured out and devel
 
 > sticker(q, package="YatesAlgo.FactorialExp.SR", p_size=6, \
     s_x=1.0, s_y=0.9, s_width=1.7, s_height=1.3, p_x = 1.0, \
-    p_y = 1.6, url = "https://cran.r-project.org/package=YatesAlgo.FactorialExp.SR", \
+    p_y = 1.6, \url = "https://cran.r-project.org/package=YatesAlgo.FactorialExp.SR", \
     u_color = "white", u_size = 2.6,\
     h_fill="black", h_color="grey",dpi=300,h_size=0.5)
+    
+The function `sticker()` has distinct parameters to alter and modify the sticker created as per one's need. It is recommended that the documentation of the function should be thoroughly followed and read. Find the documentation here {{< icon name="download" pack="fas" >}}{{< staticref "media/hexSticker.pdf" "newtab" >}}hexSticker{{< /staticref >}}.
+
 
