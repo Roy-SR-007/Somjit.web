@@ -18,8 +18,7 @@ publication_short: In *CRAN*
 #- "0"
 publishDate: "2021-04-28T00:00:00Z"
 #slides: example
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Implementation of Yates' Algorithm to determine the Sum of Squares of the `(2^n) - 1` Factorial Effects in a `2^n` symmetric Factorial Experiment. 
 tags:
 - Publications
 title: YatesAlgo.FactorialExp.SR - Yates' Algorithm in 2^n Factorial Experiment
@@ -33,12 +32,27 @@ title: YatesAlgo.FactorialExp.SR - Yates' Algorithm in 2^n Factorial Experiment
 #url_video: '#'
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+The package `YatesAlgo.FactorialExp.SR` comprises of a function `run.yates.algo`, which takes in user inputs for the following, 
+
+* `trt.combo` :: A factor type array, listing down the **Treatment Combinations** in a 2^n Factorial Experiment, in their standard order. For instance, if we are dealing with a 2^3 Factorial Experiment, i.e., there are 3 factors involved in the experiment, namely, factors **A**, **B** and **C**. The 8 treatment combinations listed in their standard order are `1,a,b,ab,c,ac,bc,abc`. Therefore the input should be as follows,
+
+> trt.combo = c(1,a,b,ab,c,ac,bc,abc) # For a 2^3 Factorial Experiment.
+
+* `trt.total` :: A numeric vector storing the **totals/sum** of each treatment combination involved in the design, i.e., in a 2^3 Factorial Experiment, the corresponding treatment totals are `[1],[a],[b],[ab],[c],[ac],[bc],[abc]`. Hence the input will be, 
+
+> trt.total = c(...) # A Numeric Vector comprising of the corresponding Treatment Totals.
+
+* `n` :: A numeric value indicating the number of **factors** involved in a 2^n Factorial Experiment. For instance, in a 2^3 Factorial Experiment, `n = 3`.
+
+> n = 3 # For a 2^3 Factorial Experiment.
+
+* `r` :: A numeric value signifying the number of **replicates** used for a **CRD**, or the number of **blocks** used in case of an **RBD**. Conducting a 2^3 Factorial experiment in 3 blocks using an RBD, would make `r=3`.
+
+> r = 3 # Conducting 2^3 Factorial Experiment using an RBD with 3 blocks.
+
+
 
 {{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
+You can click the *Cite* button above, to enable import publication metadata into your reference management software, i.e., to make a citation of the above publication.
 {{% /callout %}}
 
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
