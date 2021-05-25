@@ -2,7 +2,7 @@
 date: "2016-04-27T00:00:00Z"
 external_link: ""
 image:
-  caption:
+  caption: Modules
   focal_point: Smart
 summary: Comprises of the courses and modules I have covered during the course of my three years `baccalaureate` degree in `Statistics` at `St. Xavier's College (Autonomous), Kolkata`. 
 tags:
@@ -67,5 +67,5 @@ title: Modules covered during BSc. in Statistics Hons.
 * **Econometrics** - `HSTDS6032T/P`
 * **Dissertation/Research** - `HSTDS6043D`
 
-To see the detailed syllabus, please visit the link [`Department of Statistics, SXC Syllabus`](https://www.sxccal.edu/syllabus-statistics/).
+To see the detailed syllabus, please visit the link [Department of Statistics, SXC Syllabus](https://www.sxccal.edu/syllabus-statistics/).
 
