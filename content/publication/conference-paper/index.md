@@ -96,7 +96,7 @@ Total number of factors in the 2^n Factorial Experiment under consideration, i.e
 
 > n = 4
 
-The Treatment Allocation as mentioned in a factor type character vector.
+The Treatment Allocation to the corresponding blocks/replicates.
 
 > trt = as.factor(c(rep(1:8,each=1,times=3),rep(9:16,each=1,times=3)))
 
@@ -114,7 +114,6 @@ Finally calling the function `run.yates.algo()` to get the desired Sum of Square
 > SS.factorial.effects = run.yates.algo(trt.combo,trt.total,n,r)
 
 Now you are ready to construct the **ANOVA Table** and proceed further with your analysis.  
-
 
 
 {{% callout note %}}
