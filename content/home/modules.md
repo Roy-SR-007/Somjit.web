@@ -7,14 +7,14 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 65
+weight: 40
 
-title: Projects
-subtitle: ''
+title: Modules Covered
+subtitle: 'Theory + Practicals'
 
 content:
   # Page type to display. E.g. project.
-  page_type: project
+  page_type: modules
 
   # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
   filter_default: 0
@@ -27,12 +27,8 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: R Packages
-    tag: R Packages
-  - name: An Interactive Web Application
-    tag: Web App
-  - name: Research Papers
-    tag: Thesis
+  - name: Bachelors
+    tag: Bachelors
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
