@@ -32,6 +32,8 @@ title: YatesAlgo.FactorialExp.SR - Yates' Algorithm in 2^n Factorial Experiment
 #url_video: '#'
 ---
 
+**Summary of the Package and its Working** 
+
 The package `YatesAlgo.FactorialExp.SR` comprises of a function `run.yates.algo`, which takes in user inputs for the following, 
 
 * `trt.combo` :: A factor type array, listing down the **Treatment Combinations** in a 2^n Factorial Experiment, in their standard order. For instance, if we are dealing with a 2^3 Factorial Experiment, i.e., there are 3 factors involved in the experiment, namely, factors **A**, **B** and **C**. The 8 treatment combinations listed in their standard order are `1,a,b,ab,c,ac,bc,abc`. Therefore the input should be as follows,
@@ -49,6 +51,8 @@ The package `YatesAlgo.FactorialExp.SR` comprises of a function `run.yates.algo`
 * `r` :: A numeric value signifying the number of **replicates** used for a **CRD**, or the number of **blocks** used in case of an **RBD**. Conducting a 2^3 Factorial experiment in 3 blocks using an RBD, would make `r=3`.
 
 > r = 3 # Conducting 2^3 Factorial Experiment using an RBD with 3 blocks.
+
+With these above mentioned inputs from the user, the function performs the Yates' Algorithm, in order to return a numeric vector comprising of the Sum of Squares of the (2^n) - 1 [`(2^3) - 1 = 7`] **Factorial Effects**, which are further utilized in the analysis of the design.
 
 
 
