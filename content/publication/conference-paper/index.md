@@ -73,6 +73,8 @@ From the **second element** in the **last column** of the Yates' Table, we would
 
 ![The Yates' Table](YatesTable.JPG)
 
+$2^n$
+
 {{% callout note %}}
 You can click the *Cite* button above, to enable import publication metadata into your reference management software, i.e., to make a citation of the above publication.
 {{% /callout %}}
