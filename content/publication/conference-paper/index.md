@@ -8,8 +8,8 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
   Vestibulum sit amet erat at nulla eleifend gravida.
 authors:
 - admin
-- Robert Ford
-date: "2013-07-01T00:00:00Z"
+- Somjit
+date: "2021-04-28T00:00:00Z"
 doi: ""
 featured: true
 image:
@@ -17,29 +17,27 @@ image:
   focal_point: ""
   preview_only: false
 links:
-- name: Custom Link
-  url: http://example.org
-projects:
-- internal-project
-publication: In *Source Themes Conference*
-publication_short: In *STC*
+- name: CRAN Link
+  url: https://cran.r-project.org/package=YatesAlgo.FactorialExp.SR
+publication: In *Comprehensive R-Archive Network*
+publication_short: In *CRAN*
 publication_types:
 - "1"
-publishDate: "2017-01-01T00:00:00Z"
-slides: example
+publishDate: "2021-04-28T00:00:00Z"
+#slides: example
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
   ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-tags:
-- Source Themes
-title: An example conference paper
-url_code: '#'
-url_dataset: '#'
-url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
-url_poster: '#'
-url_project: ""
-url_slides: ""
-url_source: '#'
-url_video: '#'
+#tags:
+#- Source Themes
+title: YatesAlgo.FactorialExp.SR : Yates' Algorithm in 2^n Factorial Experiment
+#url_code: '#'
+#url_dataset: '#'
+#url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
+#url_poster: '#'
+#url_project: ""
+#url_slides: ""
+#url_source: '#'
+#url_video: '#'
 ---
 
 {{% callout note %}}
