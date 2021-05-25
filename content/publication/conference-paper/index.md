@@ -54,6 +54,21 @@ The package `YatesAlgo.FactorialExp.SR` comprises of a function `run.yates.algo`
 
 With these above mentioned inputs from the user, the function performs the Yates' Algorithm, in order to return a numeric vector comprising of the Sum of Squares of the (2^n) - 1 [`(2^3) - 1 = 7`] **Factorial Effects**, which are further utilized in the analysis of the design.
 
+**The Yates' Algorithm**
+
+The Algorithm was developed by **Frank Yates**. Let us consider a `2^n` Factorial Experiment, i.e., there are `n` respective factors involved in the experiment. Hence the total number of **treatment combinations** are `2^n` and the total number of **factorial effects** are `(2^n) - 1`.
+
+The Algorithm comprises of the following steps.
+
+* **Step 1** :: In the first column of the Yates' Table, list down all the possible `2^n` treatment combinations, in their respective **standard order**.
+
+* **Step 2** :: In the second column of the Yates' Table, write down the treatment combination totals, starting from **[1]**, right till the end.
+
+* **Step 3** :: In the third column of the Yates' Table, make the entries as follows.
+Divide the second column into **pairs** of consecutive treatment combination totals. Thereby putting in the **first half** of the third column, **sum of the consecutive pairs of treatment combinations**, and putting in the **second half** of the third column, **differences of the first element of every treatment combination total pair from its second element**.
+
+* **Step 4** :: From columns `4` to `n+2` of the Yates' Table, repeat the process as discussed in Step 3, i.e., dividing the previous column into pairs of treatment combination totals, then inserting the sum of the consecutive pairs formed into the first half of the present column and inserting the differences of the first element from the second element of the pair into the second half of the present column.
+
 
 
 {{% callout note %}}
