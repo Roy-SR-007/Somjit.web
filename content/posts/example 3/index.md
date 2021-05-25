@@ -91,7 +91,7 @@ Now, once the subplot to be placed in the sticker has been figured out and devel
     
 The function `sticker()` has distinct parameters to alter which modifies the sticker created as per one's need. Few of the parameters are,
 
-* `s_x`, `s_y` :: which controls the x and y position of the subplot.
+* `s_x`, `s_y` :: which controls the x and y positions of the subplot.
 * `p_x`, `p_y` :: which controls the x and y positions of the package name displayed.
 * `h_fill`     :: which controls the color with which the hexagon is to be filled, etc...
 
