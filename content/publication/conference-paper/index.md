@@ -1,19 +1,12 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed
-  ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis
-  sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida
-  egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id
-  dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.
-  Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: To study the effect and influence of **two or more** factors on a **response/study** variable, generally experiments are used, which are termed as `Factorial Experiments`. The term **Factorial Experiments** is coined by **R.A Fisher**. Considering a symmetric `2^n` Factorial Experiment, we determine the sum of squares of the required `Factorial Effects` in the concerned experiment, through the implementation of `Yates' Algorithm`, developed by **Frank Yates**.
 authors:
-- admin
-- Somjit
+- Somjit Roy
 date: "2021-04-28T00:00:00Z"
 doi: ""
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: '**CRAN**'
   focal_point: ""
   preview_only: false
 links:
@@ -21,8 +14,8 @@ links:
   url: https://cran.r-project.org/package=YatesAlgo.FactorialExp.SR
 publication: In *Comprehensive R-Archive Network*
 publication_short: In *CRAN*
-publication_types:
-- "1"
+#publication_types:
+#- "0"
 publishDate: "2021-04-28T00:00:00Z"
 #slides: example
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
