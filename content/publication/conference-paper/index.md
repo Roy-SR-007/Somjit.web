@@ -64,12 +64,14 @@ The Algorithm comprises of the following steps.
 
 * **Step 2** :: In the second column of the Yates' Table, write down the treatment combination totals, starting from **[1]**, right till the end.
 
-* **Step 3** :: In the third column of the Yates' Table, make the entries as follows.
+* **Step 3** :: In the third column of the Yates' Table, make the entries as described.
 Divide the second column into **pairs** of consecutive treatment combination totals. Thereby putting in the **first half** of the third column, **sum of the consecutive pairs of treatment combinations**, and putting in the **second half** of the third column, **differences of the first element of every treatment combination total pair from its second element**.
 
-* **Step 4** :: From columns `4` to `n+2` of the Yates' Table, repeat the process as discussed in Step 3, i.e., dividing the previous column into pairs of treatment combination totals, then inserting the sum of the consecutive pairs formed into the first half of the present column and inserting the differences of the first element from the second element of the pair into the second half of the present column.
+* **Step 4** :: From columns `4` to `n+2` of the Yates' Table, repeat the process as discussed in Step 3, i.e., dividing the previous column into pairs of treatment combination totals, then inserting the sum of the consecutive pairs formed into the first half of the present column and inserting the differences of the first element from the second element of the pair formed, into the second half of the present column.
 
+From the **second element** in the **last column** of the Yates' Table, we would obtain the numerator of the Sum of Squares' expression for the Factorial Effects, i.e., if we are dealing with a `2^3` Factorial Experiment, then the Yates' Table will look somewhat like this,
 
+![The Yates' Table](YatesTable.JPG)
 
 {{% callout note %}}
 You can click the *Cite* button above, to enable import publication metadata into your reference management software, i.e., to make a citation of the above publication.
