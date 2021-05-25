@@ -10,6 +10,19 @@ tags:
 title: Modules covered during BSc. in Statistics Hons.
 ---
 
+**Keys** :: 
+
+* **T/P** - Theory/Practical
+
+* **CR** - Core Paper
+
+* **GE** - Generic Elective
+
+* **DS** - Discipline Elective
+
+* **SE** - Special Paper
+
+
 **Year 1 - Semester I**
 
 * **Descriptive Statistics** - `HSTCR1012T/P`
