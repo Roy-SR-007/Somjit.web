@@ -77,6 +77,44 @@ Therefore, the required **Sum of Squares of the Factorial Effects**, in a `2^n` 
 
 ![Sum of Squares](SS.JPG)
 
+**Demonstration of `run.yates.algo()`**
+
+The values of the response variable in the experiment under consideration, stored in the vector `y()`.
+
+> y = c(90,74,81,83,77,81,88,73,
+93,78,85,80,78,80,82,70,
+98,85,88,84,82,85,88,79,
+98,72,87,85,99,79,87,80,
+95,76,83,86,90,75,84,80,
+100,82,91,86,98,81,86,85)
+
+The number of replicates/blocks used in the Factorial Experiment.
+
+> r = 3
+
+Total number of factors in the 2^n Factorial Experiment under consideration, i.e., taking an instance of `2^4` Factorial Experiment.
+
+> n = 4
+
+The Treatment Allocation as mentioned in a factor type character vector.
+
+> trt = as.factor(c(rep(1:8,each=1,times=3),rep(9:16,each=1,times=3)))
+
+The Relevant Treatment Combinations in the 2^n Factorial Experiment in their standard order.
+
+> trt.combo = as.factor(c('1','a','b','ab','c','ac','bc','abc',
+                       'd','ad','bd','abd','cd','acd','bcd','abcd'))
+
+Determining the Treatment Totals using the `aggregate()` function.
+
+> trt.total = aggregate(y,by = list(trt),sum)$x
+
+Finally calling the function `run.yates.algo()` to get the desired Sum of Squares of the `(2^4) - 1 = 15` Factorial Effects.
+
+> SS.factorial.effects = run.yates.algo(trt.combo,trt.total,n,r)
+
+Now you are ready to construct the **ANOVA Table** and proceed further with your analysis.  
+
 
 
 {{% callout note %}}
