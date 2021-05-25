@@ -117,6 +117,6 @@ Now you are ready to construct the **ANOVA Table** and proceed further with your
 
 
 {{% callout note %}}
-You can click the *Cite* button above, to enable import publication metadata into your reference management software, i.e., to make a citation of the above publication.
+You can click the *Cite* button above, to import publication metadata into your reference management software, i.e., to make a citation of the above publication.
 {{% /callout %}}
 
