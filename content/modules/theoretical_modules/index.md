@@ -67,3 +67,5 @@ title: Modules covered during BSc. in Statistics Hons.
 * **Econometrics** - `HSTDS6032T/P`
 * **Dissertation/Research** - `HSTDS6043D`
 
+To see the detailed syllabus, please visit the link [`Department of Statistics, SXC Syllabus`](https://www.sxccal.edu/syllabus-statistics/).
+
