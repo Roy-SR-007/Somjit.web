@@ -12,6 +12,7 @@ email: "somjit.roy2001@gmail.com"
 highlight_name: true
 interests:
 - Theoretical Statistics
+- Applied Probability and Statistics
 - Mathematics
 - Cryptography
 - Data Science
@@ -51,4 +52,4 @@ Somjit Roy is currently an undergrad in Statistics at St.Xavier's College (Auton
 
 As far as the Non-Statistics Background is concerned, he focuses on development of interactive web applications and found himself to invest a fair share of his time in developing R-Packages to enhance the applicability of the theories and concepts learned in his undergraduate days. Also he likes to spent a bit of his time on platforms like Netflix, Hotstar, Amazon Prime and Spotify.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/LinkedInProfile.pdf" "newtab" >}}resumé{{< /staticref >}}.
