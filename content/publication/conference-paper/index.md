@@ -1,7 +1,7 @@
 ---
 abstract: To study the effect and influence of **two or more** factors on a **response/study** variable, generally experiments are used, which are termed as `Factorial Experiments`. The term **Factorial Experiments** is coined by **R.A Fisher**. Considering a symmetric `2^n` Factorial Experiment, we determine the sum of squares of the required `Factorial Effects` in the concerned experiment, through the implementation of `Yates' Algorithm`, developed by **Frank Yates**.
 authors:
-- Somjit Roy
+- admin
 date: "2021-04-28T00:00:00Z"
 doi: ""
 featured: true
