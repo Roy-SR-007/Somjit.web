@@ -96,7 +96,7 @@ Total number of factors in the 2^n Factorial Experiment under consideration, i.e
 
 > n = 4
 
-The Treatment Allocation to the corresponding blocks/replicates.
+The Treatment Allocation to the corresponding blocks/replicates, following the order, in which the values of the target variable has been entered. 
 
 > trt = as.factor(c(rep(1:8,each=1,times=3),rep(9:16,each=1,times=3)))
 
