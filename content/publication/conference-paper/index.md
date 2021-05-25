@@ -73,7 +73,9 @@ From the **second element** in the **last column** of the Yates' Table, we would
 
 ![The Yates' Table](YatesTable.JPG)
 
-$2^n$
+Therefore, the required **Sum of Squares of the Factorial Effects**, in a `2^n` Factorial Experiment, will then be given by,
+
+$SS(X) = \frac{[\widehat{X}]^2}{r2^n}$
 
 {{% callout note %}}
 You can click the *Cite* button above, to enable import publication metadata into your reference management software, i.e., to make a citation of the above publication.
