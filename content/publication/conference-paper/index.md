@@ -27,9 +27,9 @@ publishDate: "2021-04-28T00:00:00Z"
 #slides: example
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
   ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-#tags:
-#- Source Themes
-title: YatesAlgo.FactorialExp.SR : Yates' Algorithm in 2^n Factorial Experiment
+tags:
+- Publications
+title: YatesAlgo.FactorialExp.SR - Yates' Algorithm in 2^n Factorial Experiment
 #url_code: '#'
 #url_dataset: '#'
 #url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
