@@ -20,10 +20,10 @@ content:
   form:
     provider: formspree
     formspree:
-      id: test
-    netlify:
+      id: https://formspree.io/f/xjvjwker
+    #netlify:
       # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
+     # captcha: false
   
 design:
   columns: '2'
