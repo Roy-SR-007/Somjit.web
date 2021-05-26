@@ -1,7 +1,7 @@
 ---
 external_link: ""
 image:
-  caption: '**The Immitation Game (2014)**'
+  caption: **The Immitation Game (2014)**
   focal_point: Smart
 #links:
 #- icon: github-square
