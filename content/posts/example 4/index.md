@@ -8,7 +8,7 @@ image:
 #  icon_pack: fab
 #  name: Code Reference
 #  url: https://github.com/Roy-SR-007/hexSticker-ggplot2
-summary: **Inter conversions** of number systems. Taking a number from the given base to a desired base, i.e., for instance `binary` to `decimal` or vice versa.
+summary: Inter conversions of **number systems**. Taking a number from the given base to a desired base, i.e., for instance `binary` to `decimal` or vice versa.
 tags: []
 title: Number Conversions - From one base to the other
 ---
