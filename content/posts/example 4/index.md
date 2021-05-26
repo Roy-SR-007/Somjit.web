@@ -15,6 +15,8 @@ title: Coverting Number Systems in R - From one base to the other
 
 **27th May, 2021, 02:48 am**
 
+**Motivation** :: I still remember attending the computer classes of Ma'am Pandit (used to teach us Computer Science) during my school days. Those used to be my favorite classes.s 
+
 **An Introduction** :: Data Visualization through R is doing wonders because of its diversified applications and the element of ease which it imparts to the users. From Statistics to Data Science, R has marked its significance and position everywhere.
 
 The package `ggplot2` is a widely used package, which through its uncountable components and applications, helps the users to delve deep into the area of data visualization and graphics.
