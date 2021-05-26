@@ -1,19 +1,19 @@
 ---
 external_link: ""
 image:
-  caption: '**YatesAlgo**'
+  caption: '**The Immitation Game (2014)**'
   focal_point: Smart
 #links:
 #- icon: github-square
 #  icon_pack: fab
 #  name: Code Reference
 #  url: https://github.com/Roy-SR-007/hexSticker-ggplot2
-summary: A description of using `hexSticker` and `ggplot2` to design **Hexagonal Stickers** for R-packages. 
+summary: **Inter conversions** of number systems. Taking a number from the given base to a desired base, i.e., for instance `binary` to `decimal` or vice versa.
 tags: []
-title: Designing Hexagonal Stickers in R - Combining hexSticker & ggplot2
+title: Number Conversions - From one base to the other
 ---
 
-**25th May, 2021, 02:32 am**
+**27th May, 2021, 02:48 am**
 
 **An Introduction** :: Data Visualization through R is doing wonders because of its diversified applications and the element of ease which it imparts to the users. From Statistics to Data Science, R has marked its significance and position everywhere.
 
