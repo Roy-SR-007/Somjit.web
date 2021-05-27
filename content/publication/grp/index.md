@@ -22,7 +22,7 @@ publishDate: "2021-05-12T00:00:00Z"
 summary: Simulates a gambling game under the **gambler's ruin setup**, after asking for the `money you have` and the `money you want to win`, along with your `win probability` in each round of the game.
 tags:
 - Publications
-title: gamblers.ruin.gameplay: One-Dimensional Random Walks Through Simulation of the Gambler's Ruin Problem
+title: One-Dimensional Random Walks Through Simulation of the Gambler's Ruin Problem using gamblers.ruin.gameplay
 #url_code: '#'
 #url_dataset: '#'
 #url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
