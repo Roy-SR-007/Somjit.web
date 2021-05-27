@@ -32,89 +32,41 @@ title: TrtCombo.FactorialExp.SR - Generation of Treatment Combination (in Standa
 #url_video: '#'
 ---
 
+**Definition of Treatment Combinations in a Factorial Experiment**
+
+In a `2^n` Factorial Experiment, the `n` member sequence of `0's` and `1's` are regarded as the treatment combinations. For instance in a `2^2` factorial experiment, the treatment combinations are `1,a,b,ab`, where the **higher level/presence** of a factor, i.e., A(and B) is denoted by the letter **a(and b)**, and the **lower level/absence** of a factor is denoted by the absence of the corresponding letter. The treatment combination labeled as **'1'** denotes that particular combination, where both the factors A and B are at their lower levels or absent, and thereby it is regarded as the **Control Group**.
+
+**The Algorithm of generating treatment combinations in Standard Order**
+
+In order to list down the `2^n` treatment combinations in a `2^n` factorial experiment, in an arranged manner, i.e., in the **standard order**. The control group labeled as `1` is introduced in the list first. Then a new letter is introduced chronologically and its combination with every other previously introduced treatment combinations is listed down. This is repeated until all the `n` letters gets exhausted in the set of `n` factors involved in the experiment.
+
+**NOTE** :: When combining a particular treatment combination with the previously introduced treatment combinations, avoid or omit the letters appearing `twice` in the combination.
+
 **Summary of the Package and its Working** 
 
-The package `YatesAlgo.FactorialExp.SR` comprises of a function `run.yates.algo`, which takes in user inputs for the following, 
+The package `TrtCombo.FactorialExp.SR` comprises of a function `trtcombo.std.order`, which takes in user input for the following, 
 
-* `trt.combo` :: A factor type array, listing down the **Treatment Combinations** in a 2^n Factorial Experiment, in their standard order. For instance, if we are dealing with a 2^3 Factorial Experiment, i.e., there are 3 factors involved in the experiment, namely, factors **A**, **B** and **C**. The 8 treatment combinations listed in their standard order are `1,a,b,ab,c,ac,bc,abc`. Therefore the input should be as follows,
-
-> trt.combo = c(1,a,b,ab,c,ac,bc,abc) # For a 2^3 Factorial Experiment.
-
-* `trt.total` :: A numeric vector storing the **totals/sum** of each treatment combination involved in the design, i.e., in a 2^3 Factorial Experiment, the corresponding treatment totals are `[1],[a],[b],[ab],[c],[ac],[bc],[abc]`. Hence the input will be, 
-
-> trt.total = c(...) # A Numeric Vector comprising of the corresponding Treatment Totals.
-
-* `n` :: A numeric value indicating the number of **factors** involved in a 2^n Factorial Experiment. For instance, in a 2^3 Factorial Experiment, `n = 3`.
+* `n` :: A numerical input, which accounts for the number of factors involved in the `2^n` factorial experiment, i.e., for a `2^3` factorial experiment, the user must input `n` as `3`.
 
 > n = 3 # For a 2^3 Factorial Experiment.
 
-* `r` :: A numeric value signifying the number of **replicates** used for a **CRD**, or the number of **blocks** used in case of an **RBD**. Conducting a 2^3 Factorial experiment in 3 blocks using an RBD, would make `r=3`.
+The function `trtcombo.std.order(n)`, will generate the treatment combinations in the standard order in case of a `2^n` factorial experiment, i.e., for instance if the user input for `n` is `3`, then the standard order of treatment combinations generated for a `2^3` factorial experiment is,
+`1,a,b,ab,c,ac,bc,abc`, the `8` total combinations involved in the `2^3` experiment.
 
-> r = 3 # Conducting 2^3 Factorial Experiment using an RBD with 3 blocks.
 
-With these above mentioned inputs from the user, the function performs the Yates' Algorithm, in order to return a numeric vector comprising of the Sum of Squares of the (2^n) - 1 [`(2^3) - 1 = 7`] **Factorial Effects**, which are further utilized in the analysis of the design.
+**Demonstration of `trtcombo.st.order()`**
 
-**The Yates' Algorithm**
+Let us consider a `2^5` factorial experiment.
 
-The Algorithm was developed by **Frank Yates**. Let us consider a `2^n` Factorial Experiment, i.e., there are `n` respective factors involved in the experiment. Hence the total number of **treatment combinations** are `2^n` and the total number of **factorial effects** are `(2^n) - 1`.
+> n = 5
 
-The Algorithm comprises of the following steps.
+Running the function `trtcombo.std.order()` for `n = 5`.
 
-* **Step 1** :: In the first column of the Yates' Table, list down all the possible `2^n` treatment combinations, in their respective **standard order**.
+> trtcombo.std.order(n)
 
-* **Step 2** :: In the second column of the Yates' Table, write down the treatment combination totals, starting from **[1]**, right till the end.
+The required `2^5 = 32` treatment combinations generated in their standard order are as follows.
 
-* **Step 3** :: In the third column of the Yates' Table, make the entries as described.
-Divide the second column into **pairs** of consecutive treatment combination totals. Thereby putting in the **first half** of the third column, **sum of the consecutive pairs of treatment combinations**, and putting in the **second half** of the third column, **differences of the first element of every treatment combination total pair from its second element**.
-
-* **Step 4** :: From columns `4` to `n+2` of the Yates' Table, repeat the process as discussed in Step 3, i.e., dividing the previous column into pairs of treatment combination totals, then inserting the sum of the consecutive pairs formed into the first half of the present column and inserting the differences of the first element from the second element of the pair formed, into the second half of the present column.
-
-From the **second element** in the **last column** of the Yates' Table, we would obtain the numerator of the Sum of Squares' expression for the Factorial Effects, i.e., if we are dealing with a `2^3` Factorial Experiment, then the Yates' Table will look somewhat like this,
-
-![The Yates' Table](YatesTable.JPG)
-
-Therefore, the required **Sum of Squares of the Factorial Effects**, in a `2^n` Factorial Experiment, will then be given by,
-
-![Sum of Squares](SS.JPG)
-
-**Demonstration of `run.yates.algo()`**
-
-The values of the response variable in the experiment under consideration, stored in the vector `y()`.
-
-> y = c(90,74,81,83,77,81,88,73,
-93,78,85,80,78,80,82,70,
-98,85,88,84,82,85,88,79,
-98,72,87,85,99,79,87,80,
-95,76,83,86,90,75,84,80,
-100,82,91,86,98,81,86,85)
-
-The number of replicates/blocks used in the Factorial Experiment.
-
-> r = 3
-
-Total number of factors in the 2^n Factorial Experiment under consideration, i.e., taking an instance of `2^4` Factorial Experiment.
-
-> n = 4
-
-The Treatment Allocation to the corresponding blocks/replicates, following the order, in which the values of the target variable has been entered. 
-
-> trt = as.factor(c(rep(1:8,each=1,times=3),rep(9:16,each=1,times=3)))
-
-The Relevant Treatment Combinations in the 2^n Factorial Experiment in their standard order.
-
-> trt.combo = as.factor(c('1','a','b','ab','c','ac','bc','abc',
-                       'd','ad','bd','abd','cd','acd','bcd','abcd'))
-
-Determining the Treatment Totals using the `aggregate()` function.
-
-> trt.total = aggregate(y,by = list(trt),sum)$x
-
-Finally calling the function `run.yates.algo()` to get the desired Sum of Squares of the `(2^4) - 1 = 15` Factorial Effects.
-
-> SS.factorial.effects = run.yates.algo(trt.combo,trt.total,n,r)
-
-Now you are ready to construct the **ANOVA Table** and proceed further with your analysis.  
-
+> 1, a, b, ab, c, ac, bc, abc, d, ad, bd, abd, cd, acd, bcd, abcd, e, ae, be, abe, ce, ace, bce, abce, de, ade, bde, abde, cde, acde, bcde, abcde 
 
 {{% callout note %}}
 You can click the *Cite* button above, to import publication metadata into your reference management software, i.e., to make a citation of the above publication.
