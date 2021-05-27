@@ -43,10 +43,8 @@ content:
     tag: '*'
   - name: Stat & Math
     tag: StatMath
-  - name: Web Development/Graphics
-    tag: WebGraph
-  - name: Computing - Coding
-    tag: ComputingCoding
+  - name: Stuffs with R
+    tag: R
 
 
 design:

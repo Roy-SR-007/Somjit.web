@@ -10,7 +10,7 @@ image:
 #  url: https://github.com/Roy-SR-007/hexSticker-ggplot2
 summary: Inter conversions of **number systems**. Taking a number from the given base to a desired base, i.e., for instance `binary` to `decimal` or vice versa.
 tags:
-- ComputingCoding
+- R
 title: Coverting Number Systems in R - From one base to the other
 ---
 
