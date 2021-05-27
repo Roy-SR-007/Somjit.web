@@ -79,6 +79,8 @@ We run the following code:
 
 > grp.gameplay(40,0.50,5000)
 
+{{< video src="GRP Simulation.mp4" controls="yes" >}}
+
 
 
 
