@@ -1,5 +1,5 @@
 ---
-abstract: 
+abstract: The Gambler's Ruin Problem relates to some of the most beautiful applications in the field of Statistics namely, **Stochastic Processes**, **Random Walks** and **Markov Chains**. The R-Package `gamblers.ruin.gameplay` has been developed for the live visualizations of these concepts through graphical illustrations.
 
 authors:
 - admin
