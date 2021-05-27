@@ -81,8 +81,9 @@ We run the following code:
 
 {{< video src="GRP Simulation.mp4" controls="yes" >}}
 
+In the above simulation we can see Tishyo had a hard luck, eventually losing the game. The animation also illustrates Tishyo's **One Dimensional Random Walk** during the course of the game being played by him.
 
-
+That's it ! Folllowing the similar lines, we can perform many more simulations under this set up, just by altering the parameters involved in the `grp.gameplay()` function. 
 
 {{% callout note %}}
 You can click the *Cite* button above, to import publication metadata into your reference management software, i.e., to make a citation of the above publication.
