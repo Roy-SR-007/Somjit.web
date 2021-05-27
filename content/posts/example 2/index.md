@@ -9,6 +9,7 @@ links:
   name: Code Reference
   url: https://github.com/Roy-SR-007/The-Ant-Trajectory---Illustration-Of-Markov-Chains
 summary: Considering a beautiful example, illustration of `Markov Chains`, `Random Walks` and `Statistical Regularity` has been done. 
-tags: []
+tags: 
+- StatMath
 title: The Ant Trajectory - Statistical Regularity, Markov Chains and Random Walks all at once!!
 ---
