@@ -44,13 +44,13 @@ This package development is actually a part of my undergraduate dissertation pap
 
 **What is the Gambler's Ruin Problem ? - Discussing the set up**
 
-Consider a mature man named `Tishyo Chakaraborty`, who enters into a casino one fine day with `x` units of money at his disposal. Because of his close-fisted nature, he agrees to play a game which is structured as follows:
+Consider a mature man named `Tishyo Chakraborty`, who enters into a casino one fine day with `x` units of money at his disposal. Because of his close-fisted nature, he agrees to play a game which is structured as follows:
 
 He enters into the game as decided, with `x` units of money to spare. Each round offers him an associated **win probability** of `p` [0 < p < 1], i.e., he wins every round with probability `p`. On winning each round he wins `1 unit` of money, which in turn gets added to his existing sum of capital, and on losing a round with an associated probability of `1-p`, he loses out on `1 unit` of money, which in turn gets deducted from his existing capital.
 
 Tishyo is a very busy person, so he is always in a hurry, as a result of which he decides to quit the game on reaching a capital of worth `x*` units of money, where `x* > x`, and also he has to customarily leave the game if he gets totally ruined or bankrupted, losing out on all his capital. These two junctures are referred to as the **absorbed states** of the game, where the game stops.
 
-The question is **What is the probability that Tishyo will win the entire game ?**. Thus you have the **Gambler's Ruin Problem**.
+The question is **What is the probability that Tishyo will win the entire game ?** Thus you have the **Gambler's Ruin Problem**.
 
 
 **The R-Package gamblers.ruin.gameplay**
