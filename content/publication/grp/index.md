@@ -69,7 +69,7 @@ Taking inputs for the above defined parameters, the function `grp.gameplay()`, r
 
 **Demonstration of `grp.gameplay()`**
 
-Let us consider that Tishyo enters the game with `40` units of money in his pocket, playing a fair game game, i.e., `p = 0.50` and because of his greedy nature he wants to earn `5000` units of money from the game. Let's see the consequences as it gets simulated.
+Let us consider that Tishyo enters the game with `40` units of money in his pocket, playing a fair game, i.e., `p = 0.50` and because of his greedy nature he wants to earn `5000` units of money from the game. Let's see the consequences as it gets simulated.
 
 We run the following code:
 
