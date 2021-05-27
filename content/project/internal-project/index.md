@@ -29,5 +29,3 @@ Categorical usage of Monte Carlo Simulations has been done to simulate different
 
 {{< icon name="semantic-scholar" pack="ai" >}}{{< staticref "media/Somjit Roy_402_HSTDS6043D.pdf" "newtab" >}}Read paper{{< /staticref >}}.
 
-
-
