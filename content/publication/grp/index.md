@@ -1,11 +1,7 @@
 ---
-abstract: The **gambler’s ruin problem** is a classic example, which illustrates the application of one-dimensional
-Random Walks - a Stochastic Process. Simulation of a gambling game under the gambler’s ruin
-setup concerns to a gambler starting the game with an initial capital, where the probability of winning a particular round is ’p’. If the gambler wins the round, then 1 unit of money is added to the
-gambler’s existing capital and if the gambler loses a round, then 1 unit of money is deducted from
-the gambler’s existing capital. The game stops when the gambler reaches his desired amount of
-money or gets totally bankrupted (ruined), these two points are known as the absorbed states of the
-game, or equivalently absorbed states in the one-dimensional random walk.
+abstract: The **gambler’s ruin problem** is a classic example, which illustrates the application of **one-dimensional random walks** - a **Stochastic Process**. Simulation of a gambling game under the gambler’s ruin
+setup concerns to a gambler starting the game with an `initial capital`, where the **probability** of winning a particular round is `p`. If the gambler wins the round, then `1` unit of money is added to the gambler’s existing capital and if the gambler loses a round, then `1` unit of money is deducted from
+the gambler’s existing capital. The game stops when the gambler reaches his desired amount of money or gets totally bankrupted (ruined), these two points are known as the `absorbed states` of the game, or equivalently absorbed states in the one-dimensional random walk.
 
 authors:
 - admin
