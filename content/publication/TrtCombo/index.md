@@ -38,9 +38,9 @@ In a `2^n` Factorial Experiment, the `n` member sequence of `0's` and `1's` are 
 
 **The Algorithm of generating treatment combinations in Standard Order**
 
-In order to list down the `2^n` treatment combinations in a `2^n` factorial experiment, in an arranged manner, i.e., in the **standard order**. The control group labeled as `1` is introduced in the list first. Then a new letter is introduced chronologically and its combination with every other previously introduced treatment combinations is listed down. This is repeated until all the `n` letters gets exhausted in the set of `n` factors involved in the experiment.
+In order to list down the `2^n` treatment combinations in a `2^n` factorial experiment, in an arranged manner, i.e., in the **standard order**, the control group labeled as `1` is introduced first in the list. Then a new letter is introduced chronologically and its combination with every other previously introduced treatment combinations is listed down. This is repeated until all the `n` letters gets exhausted in the set of `n` factors involved in the experiment.
 
-**NOTE** :: When combining a particular treatment combination with the previously introduced treatment combinations, avoid or omit the letters appearing `twice` in the combination.
+**NOTE** :: When combining a particular treatment combination with the previously introduced treatment combinations, avoid or omit the letters appearing `twice` in the combination, i.e. the combination of `ac` and `bc` is `abcc`, which is eventually reported as `ab`.
 
 **Summary of the Package and its Working** 
 
@@ -54,7 +54,7 @@ The function `trtcombo.std.order(n)`, will generate the treatment combinations i
 `1,a,b,ab,c,ac,bc,abc`, the `8` total combinations involved in the `2^3` experiment.
 
 
-**Demonstration of `trtcombo.st.order()`**
+**Demonstration of `trtcombo.std.order()`**
 
 Let us consider a `2^5` factorial experiment.
 
