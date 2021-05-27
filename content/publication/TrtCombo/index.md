@@ -1,5 +1,5 @@
 ---
-abstract: To study the effect and influence of **two or more** factors on a **response/study** variable, generally experiments are used, which are termed as `Factorial Experiments`. The term **Factorial Experiments** is coined by **R.A Fisher**. Considering a symmetric `2^n` Factorial Experiment, we determine the sum of squares of the required `Factorial Effects` in the concerned experiment, through the implementation of `Yates' Algorithm`, developed by **Frank Yates**.
+abstract: The package development aims in generating the required `2^n` treatment combinations in a `2^n` Factorial Experiment, where each factor is at **two** levels each. The treatment combinations are generated in an order known as the  **standard order of treatment combinations**.
 authors:
 - admin
 date: "2021-04-28T00:00:00Z"
@@ -11,17 +11,17 @@ image:
   preview_only: false
 links:
 - name: CRAN Link
-  url: https://cran.r-project.org/package=YatesAlgo.FactorialExp.SR
+  url: https://cran.r-project.org/package=TrtCombo.FactorialExp.SR
 publication: In *Comprehensive R-Archive Network*
 publication_short: In *CRAN*
 #publication_types:
 #- "0"
-publishDate: "2021-04-28T00:00:00Z"
+publishDate: "2021-05-03T00:00:00Z"
 #slides: example
-summary: Implementation of Yates' Algorithm to determine the Sum of Squares of the `(2^n) - 1` Factorial Effects in a `2^n` symmetric Factorial Experiment. 
+summary: Gives the required `2^n` **treatment combinations** in a `2^n` symmetric **factorial** experiment in their respective **standard order**.
 tags:
 - Publications
-title: YatesAlgo.FactorialExp.SR - Yates' Algorithm in 2^n Factorial Experiment
+title: TrtCombo.FactorialExp.SR - Generation of Treatment Combination (in Standard Order) in 2^n Factorial Experiment
 #url_code: '#'
 #url_dataset: '#'
 #url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
