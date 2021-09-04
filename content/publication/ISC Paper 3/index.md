@@ -34,7 +34,7 @@ title: Situations of Supply in the Classical Newsboy Problem
 #url_source: '#'
 #url_video: '#'
 ---
-
+a^b
 
 {{% callout note %}}
 You can click the *Cite* button above, to import publication metadata into your reference management software, i.e., to make a citation of the above publication.
