@@ -35,13 +35,6 @@ title: Situations of Supply in the Classical Newsboy Problem
 #url_video: '#'
 ---
 
-{math: latex}
-```
-\left|\sum_{i=1}^n a_ib_i\right|
-\le
-\left(\sum_{i=1}^n a_i^2\right)^{1/2}
-\left(\sum_{i=1}^n b_i^2\right)^{1/2}
-```
 
 {{% callout note %}}
 You can click the *Cite* button above, to import publication metadata into your reference management software, i.e., to make a citation of the above publication.
