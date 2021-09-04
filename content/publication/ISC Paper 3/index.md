@@ -35,8 +35,6 @@ title: Situations of Supply in the Classical Newsboy Problem
 #url_video: '#'
 ---
 
-$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$
-
 {{% callout note %}}
 You can click the *Cite* button above, to import publication metadata into your reference management software, i.e., to make a citation of the above publication.
 {{% /callout %}}
