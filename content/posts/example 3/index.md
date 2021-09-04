@@ -18,7 +18,7 @@ title: Designing Hexagonal Stickers in R - Combining hexSticker & ggplot2
 
 **An Introduction** :: Data Visualization through R is doing wonders because of its diversified applications and the element of ease which it imparts to the users. From Statistics to Data Science, R has marked its significance and position everywhere.
 
-![first equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7Ba%7D%7Bb%7D)
+![first equation](https://latex.codecogs.com/gif.latex?%5Cint%20%5Cint_%7B%7D%5E%7B%7D)
 
 The package `ggplot2` is a widely used package, which through its uncountable components and applications, helps the users to delve deep into the area of data visualization and graphics.
 
