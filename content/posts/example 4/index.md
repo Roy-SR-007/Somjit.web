@@ -45,7 +45,7 @@ Now we need to find the following probability,
 
 Now, we can easily observe that, P(max(X) = m) implies that, P{m is in the randomly chosen subset X and the rest `k-1` many elements that is there in the subset X are chosen from (1,2,...,m-1)}, hence,
 
-![](https://latex.codecogs.com/gif.latex?%5CRightarrow%20%mathbb%7BP%7D%28max%28X%29%3Dm%29%3D%5Cfrac%7B%5Cbinom%7Bm-1%7D%7Bk-1%7D%7D%7B%5Cbinom%7Bk&plus;a%7D%7Bk%7D%7D)
+![](https://latex.codecogs.com/gif.latex?%5CRightarrow%20%5Cmathbb%7BP%7D%28max%28X%29%3Dm%29%3D%5Cfrac%7B%5Cbinom%7Bm-1%7D%7Bk-1%7D%7D%7B%5Cbinom%7Bk&plus;a%7D%7Bk%7D%7D)
 
 Following a very similar logic, we can clearly observe that, P(min(Y) > m) implies that, P{all the elements in the subset Y are from (m+1,...,n+k+a)}, hence, 
 
