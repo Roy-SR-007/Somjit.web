@@ -20,5 +20,5 @@ title: Subsetting with a Probabilistic Notion
 **Solution** :
 
 Here we are given that `n` and `k` are fixed positive integers. We have to choose a k - element subset denoted by X, from {1,2,...,k+a} uniformly. 
-The number of such subsets are ![](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cbinom%7Bk&plus;a%7D%7Bk%7D)
+The number of such subsets are [](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cbinom%7Bk&plus;a%7D%7Bk%7D)
 
