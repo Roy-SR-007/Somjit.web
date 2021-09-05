@@ -60,7 +60,7 @@ Following a very similar logic, we can clearly observe that, P(min(Y) > m) impli
 
 Expanding the combinatorial identities inside the summation and simplifying, we get,
 
-![]()
+![](https://latex.codecogs.com/gif.latex?%5Csum_%7Bm%3Dk%7D%5E%7Bk&plus;a%7D%5Cfrac%7B%28m-1%29%21k%28n&plus;a-%28m-k%29%29%21a%21%7D%7B%28m-k%29%21%28a-%28m-k%29%29%21%28n&plus;k&plus;a%29%21%7D)
 
 Let us take `m - k = i`. Then,
 
@@ -112,7 +112,7 @@ Hence, we finally obtain,
 
 ![](https://latex.codecogs.com/gif.latex?%5Ctherefore%20%5Cmathbb%7BP%7D%28min%28Y%29%3Emax%28X%29%29%3D%5Cfrac%7B1%7D%7B%5Cbinom%7Bn&plus;k%7D%7Bk%7D%7D)
 
-**Therefore, the above probability is independent of a, and hence the proof.**
+**Therefore, the above probability is independent of `a`, and hence the proof!**
 
 
 
