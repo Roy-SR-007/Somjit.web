@@ -13,7 +13,7 @@ main:
   - name: Projects
     url: '#projects'
     weight: 20
-  - name: Blogs & Posts
+  - name: Blogs & Problem Solving
     url: '#posts'
     weight: 30
   - name: Publications
