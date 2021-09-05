@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 66
 
-title: 'Blogs & Posts'
+title: 'Blogs & Problem Solving'
 subtitle:
 
 content:
@@ -45,6 +45,8 @@ content:
     tag: StatMath
   - name: Stuffs with R
     tag: R
+  - name: Problem Corner
+    tag: ProblemCorner
 
 
 design:
