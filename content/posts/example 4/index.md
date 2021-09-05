@@ -34,9 +34,9 @@ Now we need to find the following probability,
 
 ![](https://latex.codecogs.com/gif.latex?%5Cmathbb%7BP%7D%28min%28Y%29%20%3E%20max%28X%29%29%20%3D%20%5Csum_%7Bm%3Dk%7D%5E%7Bk&plus;a%7D%5Cmathbb%7BP%7D%28min%28Y%29%3Emax%28X%29%2Cmax%28X%29%3Dm%29)
 
-> We note that, here the range of the variable `m` controlling X is from *k* to *k+a*.
+**We note that, here the range of the variable `m` controlling X is from *k* to *k+a* **.
 
-> We use the following, ![](https://latex.codecogs.com/gif.latex?%5Cmathbb%7BP%7D%28A%5Ccap%20B%29%20%3D%20%5Cmathbb%7BP%7D%28A%7CB%29%5Cmathbb%7BP%7D%28B%29)
+We use the following, ![](https://latex.codecogs.com/gif.latex?%5Cmathbb%7BP%7D%28A%5Ccap%20B%29%20%3D%20%5Cmathbb%7BP%7D%28A%7CB%29%5Cmathbb%7BP%7D%28B%29)
 
 
 !()[https://latex.codecogs.com/gif.latex?%5CRightarrow%20%5Cmathbb%7BP%7D%28min%28Y%29%3Emax%28X%29%29%3D%5Csum_%7Bm%3Dk%7D%5E%7Bk&plus;a%7D%5Cmathbb%7BP%7D%28min%28Y%29%3Emax%28X%29%7Cmax%28X%29%3Dm%29%5Cmathbb%7BP%7D%28max%28X%29%3Dm%29]
@@ -51,5 +51,6 @@ Following a very similar logic, we can clearly observe that, P(min(Y) > m) impli
 
 ![](https://latex.codecogs.com/gif.latex?%5CRightarrow%20%5Cmathbb%7BP%7D%28min%28Y%29%3Em%29%3D%5Cfrac%7B%5Cbinom%7Bn&plus;k&plus;a-m%7D%7Bn%7D%7D%7B%5Cbinom%7Bn&plus;k&plus;a%7D%7Bn%7D%7D)
 
+![](https://latex.codecogs.com/gif.latex?%5Ctherefore%20%5Cmathbb%7BP%7D%28min%28Y%29%3Emax%28X%29%29%3D%5Csum_%7Bm%3Dk%7D%5E%7Bk&plus;a%7D%5Cfrac%7B%5Cbinom%7Bn&plus;k&plus;a-m%7D%7Bn%7D%7D%7B%5Cbinom%7Bn&plus;k&plus;a%7D%7Bn%7D%7D.%5Cfrac%7B%5Cbinom%7Bm-1%7D%7Bk-1%7D%7D%7B%5Cbinom%7Bk&plus;a%7D%7Bk%7D%7D)
 
 
