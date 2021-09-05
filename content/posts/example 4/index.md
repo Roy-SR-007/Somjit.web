@@ -68,7 +68,52 @@ Let us take `m - k = i`. Then,
 
 ![](https://latex.codecogs.com/gif.latex?%5CRightarrow%20%5Cmathbb%7BP%7D%28min%28Y%29%3Emax%28X%29%29%3Dk%5Csum_%7Bi%3D0%7D%5E%7Ba%7D%5Cbinom%7Ba%7D%7Bi%7D%5Cfrac%7B%28i&plus;k-1%29%21%28n&plus;a-i%29%21%7D%7B%28n&plus;k&plus;a%29%21%7D)
 
-  > We 
+> We know that, for `n` being a natural number, we have,
+
+> ![](https://latex.codecogs.com/gif.latex?%5CGamma%20%28n%29%20%3D%20%28n-1%29%21)
+>
+
+Using the above form of the gamma function, we get,
+
+![](https://latex.codecogs.com/gif.latex?%5CRightarrow%20%5Cmathbb%7BP%7D%28min%28Y%29%3Emax%28X%29%29%3Dk%5Csum_%7Bi%3D0%7D%5E%7Ba%7D%5Cbinom%7Ba%7D%7Bi%7D%5Cfrac%7B%5CGamma%7B%28i&plus;k%29%7D%5CGamma%7B%28n&plus;a-i&plus;1%29%7D%7D%7B%5CGamma%7B%28n&plus;k&plus;a&plus;1%29%7D%7D)
+
+> From the Beta Function, we know that,
+
+> ![](https://latex.codecogs.com/gif.latex?B%28m%2Cn%29%20%3D%20%5Cfrac%7B%5CGamma%7B%28m%29%5CGamma%7B%28n%29%7D%7D%7D%7B%5CGamma%7B%28m&plus;n%29%7D%7D)
+>
+
+Hence, we get,
+
+![](https://latex.codecogs.com/gif.latex?%5CRightarrow%20%5Cmathbb%7BP%7D%28min%28Y%29%3Emax%28X%29%29%3Dk%5Csum_%7Bi%3D0%7D%5E%7Ba%7D%5Cbinom%7Ba%7D%7Bi%7DB%28i&plus;k%2Cn&plus;a-i&plus;1%29)
+
+> Also the Beta Integral of the First Kind is given by,
+
+> ![](https://latex.codecogs.com/gif.latex?B%28m%2Cn%29%20%3D%20%5Cint_%7B0%7D%5E%7B1%7Dx%5E%7Bm-1%7D%281-x%29%5E%7Bn-1%7Ddx)
+>
+
+![](https://latex.codecogs.com/gif.latex?%5CRightarrow%20%5Cmathbb%7BP%7D%28min%28Y%29%3Emax%28X%29%29%3Dk%5Csum_%7Bi%3D0%7D%5E%7Ba%7D%5Cbinom%7Ba%7D%7Bi%7D%5Cint_%7B0%7D%5E%7B1%7Dx%5E%7Bi&plus;k-1%7D%281-x%29%5E%7Bn&plus;a-i%7Ddx)
+
+**We can interchange the sum and the integral, as the terms are `non-negative`.**
+
+![](https://latex.codecogs.com/gif.latex?%5CRightarrow%20%5Cmathbb%7BP%7D%28min%28Y%29%3Emax%28X%29%29%3Dk%5Cint_%7B0%7D%5E%7B1%7D%5Csum_%7Bi%3D0%7D%5E%7Ba%7D%5Cbinom%7Ba%7D%7Bi%7Dx%5E%7Bi&plus;k-1%7D%281-x%29%5E%7Bn&plus;a-i%7Ddx)
+
+![](https://latex.codecogs.com/gif.latex?%5CRightarrow%20%5Cmathbb%7BP%7D%28min%28Y%29%3Emax%28X%29%29%3Dk%5Cint_%7B0%7D%5E%7B1%7Dx%5E%7Bk-1%7D%281-x%29%5E%7Bn%7D%5Csum_%7Bi%3D0%7D%5E%7Ba%7D%5Cbinom%7Ba%7D%7Bi%7Dx%5E%7Bi%7D%281-x%29%5E%7Ba-i%7Ddx)
+
+> Note that, 
+
+> ![](https://latex.codecogs.com/gif.latex?%5Csum_%7Bi%3D0%7D%5E%7Ba%7D%5Cbinom%7Ba%7D%7Bi%7Dx%5E%7Bi%7D%281-x%29%5E%7Ba-i%7D%20%3D%20%28x&plus;1-x%29%5Ea%20%3D%201)
+
+> The above is a **Binomial Coefficient**.
+>
+
+Hence, we finally obtain,
+
+![](https://latex.codecogs.com/gif.latex?%5CRightarrow%20%5Cmathbb%7BP%7D%28min%28Y%29%3Emax%28X%29%29%3Dk%5Cint_%7B0%7D%5E%7B1%7Dx%5E%7Bk-1%7D%281-x%29%5E%7Bn%7Ddx%3DkB%28k-1%2Cn&plus;1%29)
+
+![](https://latex.codecogs.com/gif.latex?%5Ctherefore%20%5Cmathbb%7BP%7D%28min%28Y%29%3Emax%28X%29%29%3D%5Cfrac%7B1%7D%7B%5Cbinom%7Bn&plus;k%7D%7Bk%7D%7D)
+
+**Therefore, the above probability is independent of a, and hence the proof.**
+
 
 
 
