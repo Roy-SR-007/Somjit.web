@@ -13,3 +13,5 @@ tags:
 - ProblemCorner
 title: Subsetting with a Probabilistic Notion
 ---
+
+**The Question** : Let `n` and `k` be fixed positive integers, and `a` be an arbitary non negative integer. Choose a random `k` - component element subset `X` from {1,2,...,k+a} uniformly (i.e., all possible k - elements subsets are chosen with equal probability). And independently of X, choose at random `n` - elements subset `Y` from {1,2,...,k+a+n} uniformly. Prove that P(min Y > max X) does not depend on a.
